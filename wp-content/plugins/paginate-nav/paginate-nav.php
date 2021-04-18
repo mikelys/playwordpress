@@ -38,7 +38,7 @@ class list_Pagination_Nav extends WP_Widget {
             ));
             while ($htmlPosts->have_posts()) : $htmlPosts->the_post();
            ?>
-            <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+            <li><a href="<?php $htmlPosts->the_permalink(); ?>"><?php $htmlPosts->the_title(); ?></a></li>
             <?php
                   endwhile;
                   wp_reset_postdata(); 
