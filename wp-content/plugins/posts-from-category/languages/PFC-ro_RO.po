@@ -1,0 +1,136 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: post-from-category\n"
+"POT-Creation-Date: 2015-08-28 11:04+0300\n"
+"PO-Revision-Date: 2015-08-28 11:28+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"Language: ro\n"
+"X-Poedit-SearchPath-0: ../../post-from-category\n"
+
+#: ../../post-from-category/post-from-category.php:31
+msgid "Display posts from selected category"
+msgstr "Afișeaza articolele din categoria selectată"
+
+#: ../../post-from-category/post-from-category.php:34
+msgid "Posts From Category"
+msgstr "Articole din categoria"
+
+#: ../../post-from-category/post-from-category.php:93
+#: ../../post-from-category/post-from-category.php:105
+#: ../../post-from-category/post-from-category.php:119
+msgid "Go to"
+msgstr "Mergeți la"
+
+#: ../../post-from-category/post-from-category.php:119
+msgid "Read More"
+msgstr "Citește mai multe"
+
+#: ../../post-from-category/post-from-category.php:186
+msgid "Title"
+msgstr "Titlu"
+
+#: ../../post-from-category/post-from-category.php:193
+msgid "Select Category"
+msgstr "Alegeți categoria"
+
+#: ../../post-from-category/post-from-category.php:195
+#: ../../post-from-category/post-from-category.php:212
+#: ../../post-from-category/post-from-category.php:237
+msgid "Select"
+msgstr "Alegeți"
+
+#: ../../post-from-category/post-from-category.php:209
+msgid "Order By"
+msgstr "Sorteaza după"
+
+#: ../../post-from-category/post-from-category.php:215
+msgid "Author"
+msgstr "Autor"
+
+#: ../../post-from-category/post-from-category.php:216
+msgid "Post Title"
+msgstr "Titlul articolului"
+
+#: ../../post-from-category/post-from-category.php:217
+msgid "Post ID"
+msgstr "ID articolului"
+
+#: ../../post-from-category/post-from-category.php:218
+msgid "Date"
+msgstr "Data"
+
+#: ../../post-from-category/post-from-category.php:219
+msgid "Menu Order"
+msgstr "Ordinea meniului"
+
+#: ../../post-from-category/post-from-category.php:220
+msgid "Number of Comments"
+msgstr "Numărul comentariilor"
+
+#: ../../post-from-category/post-from-category.php:221
+msgid "Random"
+msgstr "Aleatoriu"
+
+#: ../../post-from-category/post-from-category.php:234
+msgid "Order"
+msgstr "Ordinea"
+
+#: ../../post-from-category/post-from-category.php:240
+msgid "Ascending"
+msgstr "Crescător"
+
+#: ../../post-from-category/post-from-category.php:241
+msgid "Descending"
+msgstr "Descrescător"
+
+#: ../../post-from-category/post-from-category.php:254
+msgid "Number of Post"
+msgstr "Numărul articolului"
+
+#: ../../post-from-category/post-from-category.php:261
+msgid "Exclude Posts"
+msgstr "Excludeți articolul"
+
+#: ../../post-from-category/post-from-category.php:263
+msgid "Enter post id separated with comma to exclude multiple posts"
+msgstr "Introduceți id-ul articolului separat prin virgulă pentru a exclude articole multiple"
+
+#: ../../post-from-category/post-from-category.php:269
+msgid "Words of Excerpt"
+msgstr "Cuvintele rezumatului"
+
+#: ../../post-from-category/post-from-category.php:276
+msgid "Display/Select Thumbnail"
+msgstr "Afișeaza/Selectați pictograma"
+
+#: ../../post-from-category/post-from-category.php:280
+msgid "Thumbnail"
+msgstr "Pictograma"
+
+#: ../../post-from-category/post-from-category.php:281
+msgid "Medium"
+msgstr "Mediu"
+
+#: ../../post-from-category/post-from-category.php:282
+msgid "Large"
+msgstr "Mare"
+
+#: ../../post-from-category/post-from-category.php:283
+msgid "Full"
+msgstr "Plin"
+
+#: ../../post-from-category/post-from-category.php:297
+msgid "Display Post Date"
+msgstr "Afișați data articolului"
+
+#: ../../post-from-category/post-from-category.php:302
+msgid "Display Read More"
+msgstr "Afișează Citește mai mult"

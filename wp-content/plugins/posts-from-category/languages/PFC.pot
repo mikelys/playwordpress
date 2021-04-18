@@ -1,0 +1,135 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: post-from-category\n"
+"POT-Creation-Date: 2014-05-29 12:31+0545\n"
+"PO-Revision-Date: 2014-05-29 12:31+0545\n"
+"Last-Translator: Manesh Timilsina <smanesh2004@gmail.com>\n"
+"Language-Team: \n"
+"Language: ne_NP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../../post-from-category\n"
+
+#: ../../post-from-category/post-from-category.php:31
+msgid "Display posts from selected category"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:34
+msgid "Posts From Category"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:93
+#: ../../post-from-category/post-from-category.php:105
+#: ../../post-from-category/post-from-category.php:119
+msgid "Go to"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:119
+msgid "Read More"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:186
+msgid "Title"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:193
+msgid "Select Category"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:195
+#: ../../post-from-category/post-from-category.php:212
+#: ../../post-from-category/post-from-category.php:237
+msgid "Select"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:209
+msgid "Order By"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:215
+msgid "Author"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:216
+msgid "Post Title"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:217
+msgid "Post ID"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:218
+msgid "Date"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:219
+msgid "Menu Order"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:220
+msgid "Number of Comments"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:221
+msgid "Random"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:234
+msgid "Order"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:240
+msgid "Ascending"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:241
+msgid "Descending"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:254
+msgid "Number of Post"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:261
+msgid "Exclude Posts"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:263
+msgid "Enter post id separated with comma to exclude multiple posts"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:269
+msgid "Words of Excerpt"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:276
+msgid "Display/Select Thumbnail"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:280
+msgid "Thumbnail"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:281
+msgid "Medium"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:282
+msgid "Large"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:283
+msgid "Full"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:297
+msgid "Display Post Date"
+msgstr ""
+
+#: ../../post-from-category/post-from-category.php:302
+msgid "Display Read More"
+msgstr ""

@@ -1,0 +1,3585 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cluevo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-28 14:31+0000\n"
+"PO-Revision-Date: 2020-05-28 16:34+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;translate_nooped_plural\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .build\n"
+"X-Poedit-SearchPathExcluded-1: .db\n"
+"X-Poedit-SearchPathExcluded-2: .git\n"
+"X-Poedit-SearchPathExcluded-3: docker\n"
+"X-Poedit-SearchPathExcluded-4: tests\n"
+"X-Poedit-SearchPathExcluded-5: js\n"
+"X-Poedit-SearchPathExcluded-6: styles\n"
+
+#: admin-views/plugin-settings-page-competence.php:58
+msgid "No competences found."
+msgstr "Keine Kompetenzen gefunden."
+
+#: admin-views/plugin-settings-page-competence.php:59
+msgid ""
+"Failed to create competence. A competence with this name may already exist."
+msgstr ""
+"Fehler beim Erstellen der Kompetenz. Eine Kompetenz mit diesem Namen "
+"existiert möglicherweise bereits."
+
+#: admin-views/plugin-settings-page-competence.php:67
+#: admin-views/plugin-settings-page-competence.php:93
+#: admin-views/plugin-settings-page-competence.php:211
+#: admin-views/plugin-settings-page-competence.php:239
+#: admin-views/plugin-settings-page-reports.php:464
+#: admin-views/plugin-settings-page-users.php:35
+#: admin-views/plugin-settings-page-users.php:53
+#: admin-views/plugin-settings-page-webinar.php:154
+msgid "Name"
+msgstr "Name"
+
+#: admin-views/plugin-settings-page-competence.php:68
+#: admin-views/plugin-settings-page-competence.php:145
+#: admin-views/plugin-settings-page-competence.php:213
+#: admin-views/plugin-settings-page-competence.php:309 help/competence.php:6
+#: rest/routes.competences.php:200
+msgid "Competence Groups"
+msgstr "Kompetenzgruppen"
+
+#: admin-views/plugin-settings-page-competence.php:69
+#: admin-views/plugin-settings-page-competence.php:109
+#: admin-views/plugin-settings-page-competence.php:214
+#: admin-views/plugin-settings-page-competence.php:255
+#: admin-views/plugin-settings-page-reports.php:465
+#: functions/functions.module-management.inc.php:815
+#: functions/functions.module-management.inc.php:910
+#: functions/functions.module-management.inc.php:1057
+#: templates/page-user.php:46
+msgid "Modules"
+msgstr "Lektionen"
+
+#: admin-views/plugin-settings-page-competence.php:70
+#: admin-views/plugin-settings-page-competence.php:216
+msgid "Created by"
+msgstr "Erstellt von"
+
+#: admin-views/plugin-settings-page-competence.php:71
+#: admin-views/plugin-settings-page-competence.php:217
+#: admin-views/plugin-settings-page-users.php:44
+msgid "Date Created"
+msgstr "Erstellungsdatum"
+
+#: admin-views/plugin-settings-page-competence.php:72
+#: admin-views/plugin-settings-page-competence.php:218
+msgid "Modified by"
+msgstr "Geändert von"
+
+#: admin-views/plugin-settings-page-competence.php:73
+#: admin-views/plugin-settings-page-competence.php:219
+#: admin-views/plugin-settings-page-users.php:45
+msgid "Date Modified"
+msgstr "Änderungsdatum"
+
+#: admin-views/plugin-settings-page-competence.php:74
+#: admin-views/plugin-settings-page-competence.php:220
+#: admin-views/plugin-settings-page-reports.php:580
+#: admin-views/plugin-settings-page-reports.php:681
+#: admin-views/plugin-settings-page-users.php:47
+#: admin-views/plugin-settings-page-webinar.php:163
+#: functions/functions.module-management.inc.php:850
+msgid "Tools"
+msgstr "Werkzeuge"
+
+#: admin-views/plugin-settings-page-competence.php:84
+msgid "Edit Competence"
+msgstr "Kompetenz bearbeiten"
+
+#: admin-views/plugin-settings-page-competence.php:85
+msgid "Create Competence"
+msgstr "Neue Kompetenz"
+
+#: admin-views/plugin-settings-page-competence.php:97
+#: admin-views/plugin-settings-page-competence.php:212
+#: admin-views/plugin-settings-page-competence.php:243
+#: admin-views/plugin-settings-page-reports.php:463
+#: functions/functions.module-management.inc.php:849
+msgid "Type"
+msgstr "Typ"
+
+#: admin-views/plugin-settings-page-competence.php:99
+#: admin-views/plugin-settings-page-competence.php:245
+msgid "System"
+msgstr "System"
+
+#: admin-views/plugin-settings-page-competence.php:100
+#: admin-views/plugin-settings-page-competence.php:246
+#: admin-views/plugin-settings-page-reports.php:567
+#: admin-views/plugin-settings-page-reports.php:675
+#: admin-views/plugin-settings-page-users.php:64 conf/config.inc.php:91
+#: install/plugin-activate.inc.php:42
+msgid "User"
+msgstr "User"
+
+#: admin-views/plugin-settings-page-competence.php:105
+#: admin-views/plugin-settings-page-competence.php:141
+#: admin-views/plugin-settings-page-competence.php:159
+#: admin-views/plugin-settings-page-competence.php:168
+#: admin-views/plugin-settings-page-competence.php:251
+#: admin-views/plugin-settings-page-competence.php:276
+#: admin-views/plugin-settings-page-competence.php:285
+#: admin-views/plugin-settings-page-general-settings-old.php:161
+#: admin-views/plugin-settings-page-general-settings.php:468
+#: admin-views/plugin-settings-page-lms.php:64
+#: admin-views/plugin-settings-page-lms.php:139
+#: admin-views/plugin-settings-page-webinar.php:229
+msgid "Save"
+msgstr "Speichern"
+
+#: admin-views/plugin-settings-page-competence.php:110
+msgid "Not assigned to any modules"
+msgstr "Keinen Modulen zugeteilt"
+
+#: admin-views/plugin-settings-page-competence.php:113
+#: admin-views/plugin-settings-page-competence.php:123
+#: admin-views/plugin-settings-page-reports.php:477
+#: admin-views/plugin-settings-page-reports.php:568
+#: admin-views/plugin-settings-page-reports.php:674
+#: admin-views/plugin-settings-page-users.php:79 conf/config.inc.php:26
+#: functions/functions.module-management.inc.php:464
+#: functions/functions.module-management.inc.php:467
+#: functions/functions.module-management.inc.php:847
+#: install/plugin-activate.inc.php:450 install/plugin-activate.inc.php:453
+msgid "Module"
+msgstr "Lektionen"
+
+#: admin-views/plugin-settings-page-competence.php:114
+#: admin-views/plugin-settings-page-competence.php:124
+msgid "Coverage"
+msgstr "Abdeckung"
+
+#: admin-views/plugin-settings-page-competence.php:139
+#: admin-views/plugin-settings-page-competence.php:157
+#: admin-views/plugin-settings-page-competence.php:274
+#: rest/routes.competences.php:194
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: admin-views/plugin-settings-page-competence.php:140
+#: admin-views/plugin-settings-page-competence.php:158
+#: admin-views/plugin-settings-page-competence.php:275
+#: admin-views/plugin-settings-page-users.php:52
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: admin-views/plugin-settings-page-competence.php:146
+msgid "Not assigned to any competence groups."
+msgstr "Keinen Kompetenzgruppen zugeteilt."
+
+#: admin-views/plugin-settings-page-competence.php:147
+msgid "No competence groups have been created yet."
+msgstr "Es wurden noch keine Kompetenzgruppen erstellt."
+
+#: admin-views/plugin-settings-page-competence.php:167
+#: admin-views/plugin-settings-page-competence.php:284
+#: admin-views/plugin-settings-page-webinar.php:180
+#: functions/functions.core.frontend.inc.php:17
+msgid "Close"
+msgstr "Schließen"
+
+#: admin-views/plugin-settings-page-competence.php:196
+msgid "No competence groups found."
+msgstr "Keine Kompetenzgruppen gefunden."
+
+#: admin-views/plugin-settings-page-competence.php:197
+msgid ""
+"Failed to create competence group. A competence group with this name may "
+"already exist."
+msgstr ""
+"Fehler beim Erstellen der Kompetenzgruppe. Eine Kompetenzgruppe mit diesen "
+"Namen existiert möglicherweise bereits."
+
+#: admin-views/plugin-settings-page-competence.php:215
+#: rest/routes.competences.php:201
+msgid "Metadata"
+msgstr "Metadata"
+
+#: admin-views/plugin-settings-page-competence.php:230
+msgid "Edit Competence Group"
+msgstr "Kompetenzgruppe bearbeiten"
+
+#: admin-views/plugin-settings-page-competence.php:231
+msgid "Create Competence Group"
+msgstr "Neue Kompetenzgruppe"
+
+#: admin-views/plugin-settings-page-competence.php:256
+msgid "Not assigned to any modules."
+msgstr "Keinen Lektionen zugeteilt."
+
+#: admin-views/plugin-settings-page-competence.php:262
+#: admin-views/plugin-settings-page-competence.php:308
+#: install/plugin-activate.inc.php:476 install/plugin-activate.inc.php:479
+#: install/plugin-activate.inc.php:480 rest/routes.competences.php:199
+#: templates/page-user.php:18 templates/part-exp-title.php:21
+msgid "Competences"
+msgstr "Kompetenzen"
+
+#: admin-views/plugin-settings-page-competence.php:263
+msgid "No competences have been assigned yet."
+msgstr "Keine Kompetenzen zugeteilt."
+
+#: admin-views/plugin-settings-page-competence.php:264
+msgid "No competences have been created yet."
+msgstr "Es wurden noch keine Kompetenzen erstellt."
+
+#: admin-views/plugin-settings-page-competence.php:303
+msgid "CLUEVO Competence"
+msgstr "CLUEVO Kompetenz"
+
+#: admin-views/plugin-settings-page-general-settings-old.php:11
+#: functions/functions.core.admin.inc.php:56
+#: functions/functions.core.admin.inc.php:57
+#: functions/functions.core.admin.inc.php:179
+#: functions/functions.module-management.inc.php:501
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin-views/plugin-settings-page-general-settings-old.php:12
+msgid "Module display type"
+msgstr "Lektionsanzeigeart"
+
+#: admin-views/plugin-settings-page-general-settings-old.php:13
+msgid "Iframe position (only for iframe display mode)"
+msgstr "Iframe Position (nur für Iframe Modus)"
+
+#: admin-views/plugin-settings-page-general-settings-old.php:14
+#: admin-views/plugin-settings-page-general-settings.php:76
+msgid "New users are LMS users by default"
+msgstr "Neue User sind automatisch LMS User"
+
+#: admin-views/plugin-settings-page-general-settings-old.php:15
+msgid "Delete all data (tables and modules) when uninstalling"
+msgstr "Daten (Tabellen und Module) beim Deinstallieren löschen"
+
+#: admin-views/plugin-settings-page-general-settings-old.php:24
+msgid "Levels"
+msgstr "Levels"
+
+#: admin-views/plugin-settings-page-general-settings-old.php:25
+msgid "Maximum level"
+msgstr "Maximaler Level"
+
+#: admin-views/plugin-settings-page-general-settings-old.php:26
+msgid "Points needed for first level up"
+msgstr "Punkte für ersten Level Up"
+
+#: admin-views/plugin-settings-page-general-settings-old.php:27
+#: admin-views/plugin-settings-page-general-settings.php:79
+msgid "Titles"
+msgstr "Titel"
+
+#: admin-views/plugin-settings-page-general-settings-old.php:33
+#: admin-views/plugin-settings-page-general-settings.php:69
+msgid "Security"
+msgstr "Sicherheit"
+
+#: admin-views/plugin-settings-page-general-settings-old.php:34
+msgid ""
+"Enable basic module security (modules can't be accessed from outside your "
+"LMS)"
+msgstr ""
+"Einfache Modulsicherheit aktivieren (Module können von außerhalb des LMS "
+"erreicht werden)"
+
+#: admin-views/plugin-settings-page-general-settings-old.php:37
+msgid "Force https for module embeds"
+msgstr "Erzwinge https für Moduleinbettungen"
+
+#: admin-views/plugin-settings-page-general-settings-old.php:65
+#: admin-views/plugin-settings-page-general-settings.php:209
+#: functions/functions.module-management.inc.php:523
+msgid "Top of the page"
+msgstr "Start der Seite"
+
+#: admin-views/plugin-settings-page-general-settings-old.php:66
+#: admin-views/plugin-settings-page-general-settings.php:212
+#: functions/functions.module-management.inc.php:524
+msgid "Bottom of the page"
+msgstr "Ende der Seite"
+
+#: admin-views/plugin-settings-page-general-settings-old.php:126
+#: admin-views/plugin-settings-page-general-settings.php:314
+msgid "secured"
+msgstr "gesichert"
+
+#: admin-views/plugin-settings-page-general-settings-old.php:128
+#: admin-views/plugin-settings-page-general-settings.php:316
+msgid "not secured"
+msgstr "nicht gesichert"
+
+#: admin-views/plugin-settings-page-general-settings-old.php:152
+#: admin-views/plugin-settings-page-general-settings.php:68
+#: admin-views/plugin-settings-page-general-settings.php:398
+#: help/settings.php:2
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: admin-views/plugin-settings-page-general-settings-old.php:193
+msgid "Format: level: title. Example: 1: Beginner"
+msgstr "Format: Level: Titel. Beispiel: 1: Anfänger"
+
+#: admin-views/plugin-settings-page-general-settings-old.php:195
+msgid "One entry per line in the format: level: titel. Example: 1: Beginner"
+msgstr "Ein Eintrag pro Zeile im Format Level: Titel. Beispiel: 1: Anfänger"
+
+#: admin-views/plugin-settings-page-general-settings.php:69
+msgid "You can set various security related options here"
+msgstr "Hier kannst du verschiedene Einstellungen vornehmen."
+
+#: admin-views/plugin-settings-page-general-settings.php:71
+msgid "Module Display"
+msgstr "Lektionsanzeige"
+
+#: admin-views/plugin-settings-page-general-settings.php:71
+msgid "You can customize the way modules are displayed on your pages."
+msgstr "Legt fest wie Lektionen angezeigt werden."
+
+#: admin-views/plugin-settings-page-general-settings.php:72
+#: functions/functions.module-management.inc.php:507
+msgid "Display Mode"
+msgstr "Anzeigemodus"
+
+#: admin-views/plugin-settings-page-general-settings.php:72
+msgid ""
+"We recommended the display mode Lightbox where each module opens on the same "
+"page."
+msgstr ""
+"Wir empfehlen den Lightbox Anzeigemodus bei dem alle Module auf der selben "
+"Seite angezeigt werden."
+
+#: admin-views/plugin-settings-page-general-settings.php:73
+#: functions/functions.module-management.inc.php:521
+msgid "Position"
+msgstr "Position"
+
+#: admin-views/plugin-settings-page-general-settings.php:73
+msgid ""
+"This setting specifies where you want your modules to display on your pages. "
+"This is only applicable when using the iframe display mode."
+msgstr ""
+"Diese Einstellung bestimmt wo auf der Seite die Lektionen angezeigt werden. "
+"Die Einstellung betrifft nur den Iframe Anzeigemodus."
+
+#: admin-views/plugin-settings-page-general-settings.php:75
+msgid "User Settings"
+msgstr "Benutzereinstellungen"
+
+#: admin-views/plugin-settings-page-general-settings.php:77
+msgid "Max. Level"
+msgstr "Max. Stufe"
+
+#: admin-views/plugin-settings-page-general-settings.php:78
+msgid "Exp. required for first level up"
+msgstr "Punkte für ersten Level Up"
+
+#: admin-views/plugin-settings-page-general-settings.php:81
+msgid "Advanced"
+msgstr "Erweitert"
+
+#: admin-views/plugin-settings-page-general-settings.php:82
+msgid "Delete all data when uninstalling"
+msgstr "Daten beim Deinstallieren löschen"
+
+#: admin-views/plugin-settings-page-general-settings.php:82
+msgid ""
+"By enabling this option the uninstaller removes all CLUEVO data when you "
+"uninstall the plugin"
+msgstr ""
+"Diese Einstellung sorgt dafür, dass sämtliche Daten beim Deinstallieren des "
+"Plugins gelöscht werden."
+
+#: admin-views/plugin-settings-page-general-settings.php:84
+msgid "Module Security"
+msgstr "Lektionssicherheit"
+
+#: admin-views/plugin-settings-page-general-settings.php:85
+msgid "Enable basic module security"
+msgstr "Basis Lektionssicherheit aktivieren"
+
+#: admin-views/plugin-settings-page-general-settings.php:85
+msgid "Prohibits access to modules from outside your site"
+msgstr "Verhindert den Zugriff auf Lektionen von außerhalb des Lernsystems."
+
+#: admin-views/plugin-settings-page-general-settings.php:87
+msgid "Login System"
+msgstr "Anmeldung"
+
+#: admin-views/plugin-settings-page-general-settings.php:88
+msgid "Enable Login Page"
+msgstr "Anmeldeseite aktivieren"
+
+#: admin-views/plugin-settings-page-general-settings.php:88
+msgid "Enables the CLUEVO login page"
+msgstr "Aktiviert die CLUEVO Login Seite"
+
+#: admin-views/plugin-settings-page-general-settings.php:89
+msgid "Login Page"
+msgstr "Login Seite"
+
+#: admin-views/plugin-settings-page-general-settings.php:89
+msgid "Use this page to login"
+msgstr "Diese Seite als Login Seite verwenden"
+
+#: admin-views/plugin-settings-page-general-settings.php:91
+msgid "Force HTTPS for modules"
+msgstr "Erzwinge HTTPS für Embeds"
+
+#: admin-views/plugin-settings-page-general-settings.php:91
+msgid ""
+"This option forces HTTPS for module embeds, regardless of how your WordPress "
+"site URL is configured."
+msgstr ""
+"Diese Einstellung erzwingt HTTPS für Lektionseinbettungen, unhabhängig davon "
+"wie die WordPress Seiten-URL konfiguriert ist."
+
+#: admin-views/plugin-settings-page-general-settings.php:156
+msgid "CLUEVO Login"
+msgstr "CLUEVO Login"
+
+#: admin-views/plugin-settings-page-general-settings.php:157
+msgid "WordPress Login"
+msgstr "WordPress Login"
+
+#: admin-views/plugin-settings-page-general-settings.php:188
+msgid "Make sure your users allow popups for your site"
+msgstr "Versichere dich, dass deine Benutzer Popups für die Seite zulassen"
+
+#: admin-views/plugin-settings-page-general-settings.php:191
+msgid "This display mode loads each module on it's own page"
+msgstr "Dieser Modus öffnet jeden Modus auf einer separaten Seite"
+
+#: admin-views/plugin-settings-page-general-settings.php:194
+msgid "This mode opens your modules in an overlay on the same page"
+msgstr "Dieser Modus öffnet Lektionen auf derselben Seite in einem Overlay"
+
+#: admin-views/plugin-settings-page-general-settings.php:258
+msgid "Remove"
+msgstr "Entfernen"
+
+#: admin-views/plugin-settings-page-general-settings.php:270
+msgid "Add Title"
+msgstr "Titel hinzufügen"
+
+#: admin-views/plugin-settings-page-general-settings.php:404
+msgid "Saved"
+msgstr "Gespeichert"
+
+#: admin-views/plugin-settings-page-lms.php:61
+msgid "Name of the group"
+msgstr "Name der Gruppe"
+
+#: admin-views/plugin-settings-page-lms.php:67
+msgid "Edit Post"
+msgstr "Post bearbeiten"
+
+#: admin-views/plugin-settings-page-lms.php:92
+msgid "Module has to be repeated periodically"
+msgstr "Modul muss periodisch wiederholt werden"
+
+#: admin-views/plugin-settings-page-lms.php:94
+msgid "Defines in what interval users have to repeat the module."
+msgstr "Gibt den Intervall an in dem die Lektion wiederholt werden muss."
+
+#: admin-views/plugin-settings-page-lms.php:112
+msgid "The startpage of the learning management system can be found here: "
+msgstr "Die Startseite des Lern Systems befindet sich hier: "
+
+#. Name of the plugin
+#: admin-views/plugin-settings-page-lms.php:112
+msgid "CLUEVO LMS"
+msgstr "CLUEVO LMS"
+
+#: admin-views/plugin-settings-page-lms.php:113
+#, php-format
+msgid "The learning tree can be displayed on any page with %s."
+msgstr ""
+"Die Kursstruktur kann auf jeder Seite mit dem Shortcode %s angezeigt werden."
+
+#: admin-views/plugin-settings-page-lms.php:114
+msgid ""
+"You can copy the shortcode to any item by clicking on the item's id or the "
+"[s] icon."
+msgstr ""
+"Du kannst den Shortcode zu jedem Element durch einen Klick auf die "
+"entsprechende ID oder das [s] Icon in die Zwischenablage kopieren."
+
+#: admin-views/plugin-settings-page-lms.php:118
+#: functions/functions.module-management.inc.php:840
+#: functions/functions.module-management.inc.php:896
+#: functions/functions.module-management.inc.php:970
+#: templates/cluevo-course-index.php:17 templates/cluevo-course-index.php:22
+#: templates/cluevo-shortcode-tree-index.php:10
+#: templates/cluevo-tree-item-bare.php:10
+#: templates/cluevo-tree-item-module-shortcode.php:16
+#: templates/cluevo-tree-item-module-shortcode.php:18
+#: templates/cluevo-tree-item-module.php:32
+#: templates/cluevo-tree-item-module.php:56 templates/cluevo-tree-item.php:56
+#: templates/cluevo-tree-item.php:68 templates/cluevo-tree-item.php:71
+#: templates/cluevo-tree-item.php:81
+msgid "Notice"
+msgstr "Hinweis"
+
+#: admin-views/plugin-settings-page-lms.php:119
+msgid ""
+"No courses have been created yet. Click here to install our demo course and "
+"modules: "
+msgstr ""
+"Es wurden noch keine Kurse erstellt. Klicke hier um unseren Demo Kurs mit "
+"Demo Lektionen zu installieren: "
+
+#: admin-views/plugin-settings-page-lms.php:119
+#: admin-views/plugin-settings-page-lms.php:137
+#: functions/functions.module-management.inc.php:891
+#: functions/functions.module-management.inc.php:897
+msgid "Add demo course and modules"
+msgstr "Demo Kurs und Lektionen hinzufügen"
+
+#: admin-views/plugin-settings-page-lms.php:133
+msgid "Add Course"
+msgstr "Kurs hinzufügen"
+
+#: admin-views/plugin-settings-page-lms.php:138
+msgid "Reset Dependencies"
+msgstr "Abhängigkeiten zurücksetzen"
+
+#: admin-views/plugin-settings-page-reports.php:388
+#: functions/functions.core.admin.inc.php:38
+#: functions/functions.core.admin.inc.php:39
+#: functions/functions.core.admin.inc.php:169 help/reports.php:2
+msgid "Reporting"
+msgstr "Auswertungen"
+
+#: admin-views/plugin-settings-page-reports.php:393 help/reports.php:3
+msgid "Reports"
+msgstr "Reporte"
+
+#: admin-views/plugin-settings-page-reports.php:394 help/reports.php:5
+msgid "Progress"
+msgstr "Fortschritte"
+
+#: admin-views/plugin-settings-page-reports.php:395 help/reports.php:7
+msgid "SCORM Parameters"
+msgstr "SCORM Parameter"
+
+#: admin-views/plugin-settings-page-reports.php:451
+#: admin-views/plugin-settings-page-reports.php:543
+#: admin-views/plugin-settings-page-reports.php:652
+msgid "records found"
+msgstr "Einträge gefunden"
+
+#: admin-views/plugin-settings-page-reports.php:466
+#: admin-views/plugin-settings-page-users.php:26
+msgid "Users"
+msgstr "User"
+
+#: admin-views/plugin-settings-page-reports.php:467
+msgid "Attempts"
+msgstr "Versuche"
+
+#: admin-views/plugin-settings-page-reports.php:468
+#: admin-views/plugin-settings-page-reports.php:574
+#: functions/functions.module-management.inc.php:542 help/lms.php:9
+msgid "Points"
+msgstr "Punkte"
+
+#: admin-views/plugin-settings-page-reports.php:469
+#: admin-views/plugin-settings-page-reports.php:575
+msgid "Points %"
+msgstr "Punkte %"
+
+#: admin-views/plugin-settings-page-reports.php:470
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+#: admin-views/plugin-settings-page-reports.php:471
+msgid "Best User"
+msgstr "Bester User"
+
+#: admin-views/plugin-settings-page-reports.php:472
+msgid "Worst User"
+msgstr "Schlechtester User"
+
+#: admin-views/plugin-settings-page-reports.php:512
+msgid "No reports found."
+msgstr "Keine Reporte gefunden."
+
+#: admin-views/plugin-settings-page-reports.php:551
+#: admin-views/plugin-settings-page-reports.php:665
+msgid "all users"
+msgstr "Alle Benutzer"
+
+#: admin-views/plugin-settings-page-reports.php:552
+#: admin-views/plugin-settings-page-reports.php:664
+msgid "all modules"
+msgstr "Alle Lektionen"
+
+#: admin-views/plugin-settings-page-reports.php:553
+#: admin-views/plugin-settings-page-reports.php:666
+msgid "all attempts"
+msgstr "Alle Versuche"
+
+#: admin-views/plugin-settings-page-reports.php:560
+#: admin-views/plugin-settings-page-reports.php:561
+#: admin-views/plugin-settings-page-reports.php:562
+msgid "all"
+msgstr "Alle"
+
+#: admin-views/plugin-settings-page-reports.php:564
+#: admin-views/plugin-settings-page-reports.php:670
+msgid "Reset Filters"
+msgstr "Filter zurücksetzen"
+
+#: admin-views/plugin-settings-page-reports.php:569
+#: admin-views/plugin-settings-page-reports.php:676
+msgid "Attempt"
+msgstr "Versuch"
+
+#: admin-views/plugin-settings-page-reports.php:570
+msgid "Start"
+msgstr "Start"
+
+#: admin-views/plugin-settings-page-reports.php:571
+msgid "Last Activity"
+msgstr "Letzte Aktivität"
+
+#: admin-views/plugin-settings-page-reports.php:572
+msgid "Min. Pts."
+msgstr "Min. Pkte"
+
+#: admin-views/plugin-settings-page-reports.php:573
+msgid "Max. Pts."
+msgstr "Max. Pkte"
+
+#: admin-views/plugin-settings-page-reports.php:576
+msgid "Compl. Status"
+msgstr "Kompl. Status"
+
+#: admin-views/plugin-settings-page-reports.php:577
+msgid "Success Status"
+msgstr "Erfolgsstatus"
+
+#: admin-views/plugin-settings-page-reports.php:578
+msgid "Lesson Status (SCORM 1.2)"
+msgstr "Lektionsstatus (SCORM 1.2)"
+
+#: admin-views/plugin-settings-page-reports.php:579
+msgid "Credit"
+msgstr "Gültig"
+
+#: admin-views/plugin-settings-page-reports.php:599
+msgid "No SCORM parameters available for this module type"
+msgstr "Keine SCORM Parameter verfügbar für diesen Lektionstyp"
+
+#: admin-views/plugin-settings-page-reports.php:601
+#: functions/functions.module-management.inc.php:881
+msgid "Browse SCORM parameters"
+msgstr "SCORM Parameter durchsuchen"
+
+#: admin-views/plugin-settings-page-reports.php:625
+msgid "No progress records found."
+msgstr "Keine Fortschrittseinträge gefunden."
+
+#: admin-views/plugin-settings-page-reports.php:667
+msgid "all parameters"
+msgstr "Alle Parameter"
+
+#: admin-views/plugin-settings-page-reports.php:677
+msgid "Parameter"
+msgstr "Parameter"
+
+#: admin-views/plugin-settings-page-reports.php:678
+#: functions/functions.module-management.inc.php:550
+msgid "Worth"
+msgstr "Wert"
+
+#: admin-views/plugin-settings-page-reports.php:679
+#: admin-views/plugin-settings-page-webinar.php:155
+msgid "Created"
+msgstr "Erstellt"
+
+#: admin-views/plugin-settings-page-reports.php:680
+msgid "Modified"
+msgstr "Geändert"
+
+#: admin-views/plugin-settings-page-reports.php:715
+msgid "No SCORM parameters found."
+msgstr "Keine SCORM Parameter vorhanden."
+
+#: admin-views/plugin-settings-page-users.php:25
+msgid "No users found."
+msgstr "Keine User gefunden."
+
+#: admin-views/plugin-settings-page-users.php:27
+#: admin-views/plugin-settings-page-users.php:42 help/permissions.php:5
+msgid "Groups"
+msgstr "Gruppen"
+
+#: admin-views/plugin-settings-page-users.php:28
+msgid "Really delete this user?"
+msgstr "Diesen User wirklich löschen?"
+
+#: admin-views/plugin-settings-page-users.php:29
+#: admin-views/plugin-settings-page-users.php:61
+msgid "Really delete this group?"
+msgstr "Diese Gruppe wirklich löschen?"
+
+#: admin-views/plugin-settings-page-users.php:30
+#: admin-views/plugin-settings-page-users.php:32
+msgid "Add User"
+msgstr "User hinzufügen"
+
+#: admin-views/plugin-settings-page-users.php:31
+#: admin-views/plugin-settings-page-users.php:33
+msgid "Add Group"
+msgstr "Gruppe hinzufügen"
+
+#: admin-views/plugin-settings-page-users.php:34
+msgid "Find user"
+msgstr "User suchen"
+
+#: admin-views/plugin-settings-page-users.php:36
+msgid "Selected users:"
+msgstr "Ausgewählte User:"
+
+#: admin-views/plugin-settings-page-users.php:37
+msgid "Add users"
+msgstr "User hinzufügen"
+
+#: admin-views/plugin-settings-page-users.php:38
+#: templates/part-login-form.php:11
+msgid "Username"
+msgstr "Username"
+
+#: admin-views/plugin-settings-page-users.php:39
+msgid "Create Group"
+msgstr "Gruppe erstellen"
+
+#: admin-views/plugin-settings-page-users.php:40
+msgid "Save Group"
+msgstr "Gruppe speichern"
+
+#: admin-views/plugin-settings-page-users.php:41
+msgid "Role"
+msgstr "Rolle"
+
+#: admin-views/plugin-settings-page-users.php:43
+msgid "Last Seen"
+msgstr "Zuletzt gesehen"
+
+#: admin-views/plugin-settings-page-users.php:46
+msgid "Role Since"
+msgstr "Rolle seit"
+
+#: admin-views/plugin-settings-page-users.php:48
+msgid "X"
+msgstr "X"
+
+#: admin-views/plugin-settings-page-users.php:49
+msgid "Promote to trainer"
+msgstr "Zum Trainer befördern"
+
+#: admin-views/plugin-settings-page-users.php:50
+msgid "Demote to user"
+msgstr "Zum Schüler machen"
+
+#: admin-views/plugin-settings-page-users.php:51
+msgid "Select a Group"
+msgstr "Wähle eine Gruppe"
+
+#: admin-views/plugin-settings-page-users.php:54
+#: admin-views/plugin-settings-page-users.php:58
+msgid "Description"
+msgstr "Beschreibung"
+
+#: admin-views/plugin-settings-page-users.php:55
+msgid "Group Information"
+msgstr "Gruppeninformation"
+
+#: admin-views/plugin-settings-page-users.php:56
+#: admin-views/plugin-settings-page-users.php:59
+msgid "Members"
+msgstr "Mitglieder"
+
+#: admin-views/plugin-settings-page-users.php:57
+msgid "Group Name"
+msgstr "Name der Gruppe"
+
+#: admin-views/plugin-settings-page-users.php:60
+#: admin-views/plugin-settings-page-users.php:62 conf/config.inc.php:90
+#: conf/config.inc.php:98
+msgid "Trainer"
+msgstr "Trainer"
+
+#: admin-views/plugin-settings-page-users.php:63
+msgid "Student"
+msgstr "Schüler"
+
+#: admin-views/plugin-settings-page-users.php:65
+msgid "Group"
+msgstr "Gruppe"
+
+#: admin-views/plugin-settings-page-users.php:66
+msgid "No Access"
+msgstr "Kein Zugriff"
+
+#: admin-views/plugin-settings-page-users.php:67
+msgid "Visible"
+msgstr "Sichtbar"
+
+#: admin-views/plugin-settings-page-users.php:68
+msgid "Full Access"
+msgstr "Vollzugriff"
+
+#: admin-views/plugin-settings-page-users.php:69
+msgid "or"
+msgstr "oder"
+
+#: admin-views/plugin-settings-page-users.php:70
+msgid "Warning: This module is visible but can't be opened by this user/group."
+msgstr ""
+"Achtung: Diese Lektion ist zwar sichtbar kann von diesem User bzw. dieser "
+"Gruppe aber nicht geöffnet werden."
+
+#: admin-views/plugin-settings-page-users.php:71
+msgid ""
+"Warning: This permission is currently overridden by a group permission: "
+msgstr ""
+"Achtung: Diese Berechtigung wird durch eine Gruppenberechtigung "
+"überschrieben: "
+
+#: admin-views/plugin-settings-page-users.php:72
+msgid "Select a group or user to create a permission structure for."
+msgstr ""
+"Wähle eine Gruppe oder einen User um eine Berechtigungsstruktur zu erstellen."
+
+#: admin-views/plugin-settings-page-users.php:73
+msgid "Apply Permissions"
+msgstr "Berechtigungen übernehmen"
+
+#: admin-views/plugin-settings-page-users.php:74
+msgid "No Access. The element is not visible and can't be accessed."
+msgstr ""
+"Kein Zugriff. Das Element ist nicht sichtbar und kann nicht geöffnet werden."
+
+#: admin-views/plugin-settings-page-users.php:75
+msgid "Visible. The element is visible but can't be accessed."
+msgstr "Sichtbar. Das Element ist sichtbar kann aber nicht geöffnet werden."
+
+#: admin-views/plugin-settings-page-users.php:76
+msgid "Open. The element is visible and can be accessed."
+msgstr "Offen. Das Element is sichtbar und kann geöffnet werden."
+
+#: admin-views/plugin-settings-page-users.php:77 conf/config.inc.php:24
+#: functions/functions.module-management.inc.php:459
+#: install/plugin-activate.inc.php:424 install/plugin-activate.inc.php:427
+msgid "Course"
+msgstr "Kurs"
+
+#: admin-views/plugin-settings-page-users.php:78 conf/config.inc.php:25
+#: functions/functions.module-management.inc.php:460
+#: functions/functions.module-management.inc.php:463
+#: install/plugin-activate.inc.php:437 install/plugin-activate.inc.php:440
+msgid "Chapter"
+msgstr "Kapitel"
+
+#: admin-views/plugin-settings-page-users.php:80 help/permissions.php:7
+msgid "Permissions"
+msgstr "Berechtigungen"
+
+#: admin-views/plugin-settings-page-users.php:81
+msgid ""
+"This is a e-mail group. Every user that has an e-mail address from this "
+"domain is automatically a member of this group."
+msgstr ""
+"Bei dieser Gruppe handelt es sich um eine E-Mail Gruppe. Jeder User mit "
+"einer E-Mail Adresse von dieser Domain ist automatisch Mitglied dieser "
+"Gruppe."
+
+#: admin-views/plugin-settings-page-users.php:103 help/permissions.php:2
+msgid "User Administration"
+msgstr "Benutzerverwaltung"
+
+#: admin-views/plugin-settings-page-webinar.php:6
+#: admin-views/plugin-settings-page-webinar.php:96
+msgid "Webinar"
+msgstr "Webinare"
+
+#: admin-views/plugin-settings-page-webinar.php:13
+msgid "Webinar System Active"
+msgstr "Webinar System Aktiv"
+
+#: admin-views/plugin-settings-page-webinar.php:21
+msgid "Webinar Server URL"
+msgstr "Webinar Server URL"
+
+#: admin-views/plugin-settings-page-webinar.php:28
+msgid "Webinar Secret"
+msgstr "Webinar Secret"
+
+#: admin-views/plugin-settings-page-webinar.php:102
+msgid "Meetings"
+msgstr "Meetings"
+
+#: admin-views/plugin-settings-page-webinar.php:103
+msgid "Webinar User"
+msgstr "Webinar User"
+
+#: admin-views/plugin-settings-page-webinar.php:105
+msgid "Webinar Settings"
+msgstr "Webinar Einstellungen"
+
+#: admin-views/plugin-settings-page-webinar.php:146
+msgid "Available Meetings"
+msgstr "Meetings"
+
+#: admin-views/plugin-settings-page-webinar.php:156
+msgid "REC"
+msgstr "REC"
+
+#: admin-views/plugin-settings-page-webinar.php:157
+msgid "Moderator Password"
+msgstr "Moderator Passwort"
+
+#: admin-views/plugin-settings-page-webinar.php:158
+msgid "Guest Passwort"
+msgstr "Gast Passwort"
+
+#: admin-views/plugin-settings-page-webinar.php:159
+msgid "Start time"
+msgstr "Startzeit"
+
+#: admin-views/plugin-settings-page-webinar.php:160
+msgid "End time"
+msgstr "Endzeit"
+
+#: admin-views/plugin-settings-page-webinar.php:161
+msgid "Duration"
+msgstr "Dauer"
+
+#: admin-views/plugin-settings-page-webinar.php:162
+msgid "Attendees"
+msgstr "Teilnehmer"
+
+#: admin-views/plugin-settings-page-webinar.php:178
+msgid "Enter as moderator"
+msgstr "Als Moderator beitreten"
+
+#: admin-views/plugin-settings-page-webinar.php:179
+msgid "Enter as guest"
+msgstr "Als Gast beitreten"
+
+#: admin-views/plugin-settings-page-webinar.php:186
+msgid "There are currently no meetings active."
+msgstr "Es sind derzeit keine Meetings aktiv"
+
+#: admin-views/plugin-settings-page-webinar.php:189
+msgid "An error occurred while trying to get the rooms."
+msgstr "Bei der Abfrage der Räume ist ein Fehler aufgetreten."
+
+#: admin-views/plugin-settings-page-webinar.php:194
+msgid "Meeting Name"
+msgstr "Meeting Name"
+
+#: admin-views/plugin-settings-page-webinar.php:195
+msgid "Create Meeting"
+msgstr "Meeting erstellen"
+
+#: classes/class.user.inc.php:273 classes/class.user.inc.php:274
+#: classes/class.user.inc.php:275 classes/class.user.inc.php:299
+#: classes/class.user.inc.php:300 classes/class.user.inc.php:301
+#: conf/config.inc.php:92 functions/functions.progress.inc.php:617
+#: functions/functions.progress.inc.php:618 install/plugin-activate.inc.php:40
+#: templates/scorm-module-iframe.php:27
+msgid "Guest"
+msgstr "Gast"
+
+#: conf/config.inc.php:11 install/plugin-activate.inc.php:429
+#: lang/misc-lang-strings.php:4
+msgid "course"
+msgstr "Kurs"
+
+#: conf/config.inc.php:12 install/plugin-activate.inc.php:442
+#: lang/misc-lang-strings.php:3
+msgid "chapter"
+msgstr "Kapitel"
+
+#: conf/config.inc.php:13 install/plugin-activate.inc.php:455
+#: lang/misc-lang-strings.php:5
+msgid "module"
+msgstr "Lektion"
+
+#: conf/config.inc.php:14 lang/misc-lang-strings.php:2
+msgid "tree"
+msgstr "Kursstruktur"
+
+#: conf/config.inc.php:15
+msgid "course group"
+msgstr "Kursgruppe"
+
+#: conf/config.inc.php:23 functions/functions.module-management.inc.php:248
+#: functions/functions.module-management.inc.php:287
+msgid "Course Group"
+msgstr "Kursgruppe"
+
+#: conf/config.inc.php:89 conf/config.inc.php:97
+msgid "Admin"
+msgstr "Admin"
+
+#: functions/functions.competence.inc.php:909
+#: functions/functions.core.admin.inc.php:47
+#: functions/functions.core.admin.inc.php:48
+#: functions/functions.core.admin.inc.php:164 help/competence.php:2
+#: install/plugin-activate.inc.php:488 install/plugin-activate.inc.php:491
+#: install/plugin-activate.inc.php:492
+#: tests/test-cluevo_create_competence_metadata_page.php:67
+msgid "Competence"
+msgstr "Kompetenz"
+
+#: functions/functions.competence.inc.php:949
+#: install/plugin-activate.inc.php:500 install/plugin-activate.inc.php:503
+#: install/plugin-activate.inc.php:504
+#: tests/test-cluevo_create_competence_area_metadata_page.php:67
+msgid "Competence Group"
+msgstr "Kompetenzgruppe"
+
+#. Author of the plugin
+#: functions/functions.core.admin.inc.php:10
+#: functions/functions.core.admin.inc.php:11
+msgid "CLUEVO"
+msgstr "CLUEVO"
+
+#: functions/functions.core.admin.inc.php:20
+#: functions/functions.core.admin.inc.php:21
+#: functions/functions.module-management.inc.php:919
+msgid "Learning Management"
+msgstr "Lernmanagement"
+
+#: functions/functions.core.admin.inc.php:29
+#: functions/functions.core.admin.inc.php:30
+msgid "User Management"
+msgstr "Userverwaltung"
+
+#: functions/functions.core.admin.inc.php:152
+msgid "CLUEVO Posts / Pages"
+msgstr "CLUEVO Posts / Pages"
+
+#: functions/functions.core.admin.inc.php:159
+msgid "LMS"
+msgstr "LMS"
+
+#: functions/functions.core.admin.inc.php:174
+msgid "Users / Permissions"
+msgstr "User / Berechtigungen"
+
+#: functions/functions.core.admin.inc.php:202
+#: functions/functions.core.admin.inc.php:203
+#: functions/functions.core.admin.inc.php:256
+#: functions/functions.core.admin.inc.php:257
+#: functions/functions.module-management.inc.php:868
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: functions/functions.core.admin.inc.php:236
+msgid ""
+"You have one or more CLUEVO extensions installed. Please check their "
+"compatibility before updating."
+msgstr ""
+"Du hast eine oder mehrere CLUEVO Erweiterungen installiert. Bitte prüfe "
+"deren Kompatibilität vor dem Update."
+
+#: functions/functions.core.admin.inc.php:238
+#: functions/functions.core.admin.inc.php:297
+msgid "Plugin"
+msgstr "Plugin"
+
+#: functions/functions.core.admin.inc.php:238
+#: functions/functions.core.admin.inc.php:297
+msgid "tested"
+msgstr "getestet"
+
+#: functions/functions.core.admin.inc.php:238
+#: functions/functions.core.admin.inc.php:297
+msgid "compatible"
+msgstr "kompatibel"
+
+#: functions/functions.core.admin.inc.php:295
+msgid ""
+"One or more of your CLUEVO extensions are either not compatible or have not "
+"been tested with the currently installed CLUEVO LMS version. Please "
+"deactivate or update these extensions as soon as possible to avoid errors."
+msgstr ""
+"Eine oder mehrere CLUEVO Erweiterungen sind entweder nicht mit der "
+"installierten CLUEVO LMS Version kompatibel oder wurden nicht getestet. "
+"Bitte deaktiveren diese Erweiterungen falls Probleme auftreten."
+
+#: functions/functions.core.admin.inc.php:327
+#, php-format
+msgid ""
+"CLUEVO LMS requires a MySQL server version of at least %s. You are currently "
+"running version %s. Please update your MySQL server version. There will be "
+"issues if you run this plugin with an outdated MySQL server."
+msgstr ""
+"CLUEVO LMS benötigt mindestens MySQL Server Version %s. Deine Version: %s. "
+"Bitte aktualisiere deine MySQL server version. Eine veraltete MySQL Server "
+"Version wird zu Problemen führen."
+
+#: functions/functions.core.admin.inc.php:350
+#, php-format
+msgid ""
+"CLUEVO LMS requires at least PHP version %s. Your PHP version: %s. Please "
+"update your PHP version to use this plugin."
+msgstr ""
+"CLUEVO LMS benötigt mindestens PHP Version %s. Deine PHP Version: %s. Bitte "
+"aktualisiere deine PHP Version um dieses Plugin zu verwenden."
+
+#: functions/functions.core.frontend.inc.php:15
+msgid "Loading module, one moment please..."
+msgstr "Lektion wird geladen, einen Moment bitte..."
+
+#: functions/functions.core.frontend.inc.php:16
+msgid "The module failed to load."
+msgstr "Die Lektion konnte nicht geladen werden."
+
+#: functions/functions.core.frontend.inc.php:18
+msgid "Please select a unit to start."
+msgstr "Bitte wähle eine Lerneinheit zum Starten."
+
+#: functions/functions.core.frontend.inc.php:19
+#: functions/functions.module-management.inc.php:835
+#: functions/functions.module-management.inc.php:965
+msgid "Error"
+msgstr "Fehler"
+
+#: functions/functions.core.frontend.inc.php:20
+msgid "A module has already been started."
+msgstr "Ein Modul wurde bereits gestartet."
+
+#: functions/functions.core.frontend.inc.php:21
+msgid "Access Denied"
+msgstr "Zugriff Verweigert"
+
+#: functions/functions.core.frontend.inc.php:22
+msgid "You do not have the required permissions to access this item."
+msgstr ""
+"Du verfügst nicht über die benötigten Berechtigungen um auf diesen Inhalt "
+"zugreifen zu können."
+
+#: functions/functions.core.frontend.inc.php:23
+msgid "Failed to establish a connection to the lms."
+msgstr "Konnte keine Verbindung zum LMS aufbauen."
+
+#: functions/functions.core.frontend.inc.php:24
+msgid ""
+"You have saved progress, do want to start a new attempt or resume the "
+"previous attempt?"
+msgstr ""
+"Du diese Lektion bereits begonnen. Möchstest du neu starten oder die Lektion "
+"fortsetzen?"
+
+#: functions/functions.core.frontend.inc.php:25
+msgid "Resume"
+msgstr "Fortsetzen"
+
+#: functions/functions.core.frontend.inc.php:26
+msgid "New attempt"
+msgstr "Neuer Versuch"
+
+#: functions/functions.core.inc.php:12
+msgid "CLUEVO Competence Posts"
+msgstr "CLUEVO Kompetenz Posts"
+
+#: functions/functions.core.inc.php:13
+msgid "CLUEVO Competence Post"
+msgstr "CLUEVO Kompetenz Post"
+
+#: functions/functions.core.inc.php:21
+msgid "cluevo/competence"
+msgstr "cluevo/kompetenz"
+
+#: functions/functions.core.inc.php:29
+msgid "CLUEVO Competence Group Posts"
+msgstr "CLUEVO Kompetenzgruppen Posts"
+
+#: functions/functions.core.inc.php:30
+msgid "CLUEVO Competence Group Post"
+msgstr "CLUEVO Kompetenzgruppen Post"
+
+#: functions/functions.core.inc.php:38
+msgid "cluevo/competence-group"
+msgstr "cluevo/kompetenzgruppe"
+
+#: functions/functions.core.inc.php:46
+msgid "CLUEVO SCORM Module Posts"
+msgstr "CLUEVO SCORM Modul Posts"
+
+#: functions/functions.core.inc.php:47
+msgid "CLUEVO SCORM Module Post"
+msgstr "CLUEVO SCORM Modul Post"
+
+#: functions/functions.core.inc.php:56
+msgid "cluevo/scorm"
+msgstr "cluevo/scorm"
+
+#: functions/functions.core.inc.php:64
+msgid "CLUEVO LMS Posts"
+msgstr "CLUEVO LMS Posts"
+
+#: functions/functions.core.inc.php:65
+msgid "CLUEVO LMS Post"
+msgstr "CLUEVO LMS Post"
+
+#: functions/functions.core.inc.php:164
+msgid "CLUEVO Content"
+msgstr "CLUEVO Seiten"
+
+#: functions/functions.core.inc.php:205
+msgid "CLUEVO Pages"
+msgstr "CLUEVO Posts / Pages"
+
+#: functions/functions.core.inc.php:206
+msgid "CLUEVO Page"
+msgstr "CLUEVO Seite"
+
+#: functions/functions.core.inc.php:277
+msgid "Video"
+msgstr "Video Datei"
+
+#: functions/functions.core.inc.php:278
+msgid "Audio"
+msgstr "Audio Datei"
+
+#: functions/functions.core.inc.php:294
+#: functions/functions.module-management.inc.php:1232
+msgid "SCORM 2004"
+msgstr "SCORM 2004"
+
+#: functions/functions.core.inc.php:308 functions/functions.core.inc.php:309
+msgid "Please select a unit"
+msgstr "Bitte wähle eine Lerneinheit"
+
+#: functions/functions.inc.php:614 functions/functions.inc.php:718
+msgid "The existing module has been overwritten."
+msgstr "Die existierende Lektion wurde überschrieben."
+
+#: functions/functions.inc.php:616 functions/functions.inc.php:720
+msgid "Modul activated."
+msgstr "Lektion aktiviert."
+
+#: functions/functions.inc.php:714 functions/functions.inc.php:723
+msgid "An error occurred while activating the module."
+msgstr "Beim Aktivieren der Lektion ist ein Fehler aufgetreten."
+
+#: functions/functions.inc.php:813
+#, php-format
+msgid ""
+"The CLUEVO LMS database has to be updated to a newer version. Click here to "
+"start the udpate process: %s!"
+msgstr ""
+"Die CLUEVO LMS Datenbank muss auf eine neuere Version geupdated werden. "
+"Klicke hier um den Updateprozess zu starten: %s!"
+
+#: functions/functions.inc.php:828
+msgid "The CLUEVO LMS database has been updated."
+msgstr "Die CLUEVO LMS Datenbank wurde aktualisiert."
+
+#: functions/functions.module-management.inc.php:18
+msgid "This type of file is not allowed"
+msgstr "Dieser Dateityp ist nicht erlaubt"
+
+#: functions/functions.module-management.inc.php:61
+msgid "No handler for this content type could be found."
+msgstr "Für diesen Inhaltstyp wurde kein Handler gefunden."
+
+#: functions/functions.module-management.inc.php:81
+msgid "URL should not be empty"
+msgstr "URL darf nicht leer sein"
+
+#: functions/functions.module-management.inc.php:85
+msgid "File does not exist"
+msgstr "Datei existiert nicht"
+
+#: functions/functions.module-management.inc.php:125
+msgid "An error occurred while moving the file to the target directory."
+msgstr ""
+"Beim Verschieben der Datei ins Zielverzeichnis ist ein Fehler aufgetreten."
+
+#: functions/functions.module-management.inc.php:144
+msgid "The module failed to install."
+msgstr "Die Lektion konnte nicht installiert werden."
+
+#: functions/functions.module-management.inc.php:232
+#: functions/functions.module-management.inc.php:1054
+msgid "Insert Module"
+msgstr "Lektion einfügen"
+
+#: functions/functions.module-management.inc.php:266
+msgid "New"
+msgstr "Neu"
+
+#: functions/functions.module-management.inc.php:371
+#: functions/functions.module-management.inc.php:691
+#: functions/functions.module-management.inc.php:692
+#: install/plugin-activate.inc.php:465 install/plugin-activate.inc.php:468
+msgid "SCORM Module"
+msgstr "SCORM Modul"
+
+#: functions/functions.module-management.inc.php:372
+msgid "SCORM MODULE"
+msgstr "SCORM MODUL"
+
+#: functions/functions.module-management.inc.php:474
+#: functions/functions.module-management.inc.php:491
+msgid "Copy Shortcode"
+msgstr "Shortcode kopieren"
+
+#: functions/functions.module-management.inc.php:478
+msgid "This item has dependencies"
+msgstr "Dieses Element verfügt über Abhängigkeiten"
+
+#: functions/functions.module-management.inc.php:479
+#: functions/functions.module-management.inc.php:1033
+msgid "Published"
+msgstr "Veröffentlicht"
+
+#: functions/functions.module-management.inc.php:479
+#: functions/functions.module-management.inc.php:1034
+#: templates/part-tree-item.php:98
+msgid "Draft"
+msgstr "Entwurf"
+
+#: functions/functions.module-management.inc.php:487
+msgid "Open this elements post"
+msgstr "Post dieses Elements öffnen"
+
+#: functions/functions.module-management.inc.php:489
+msgid "Create item page"
+msgstr "Lektionsseite erstellen"
+
+#: functions/functions.module-management.inc.php:492
+msgid "Element Settings"
+msgstr "Element Einstellungen"
+
+#: functions/functions.module-management.inc.php:493
+msgid "Delete Element"
+msgstr "Element Löschen"
+
+#: functions/functions.module-management.inc.php:509
+msgid "Determines how modules are displayed."
+msgstr "Legt fest wie Lektionen angezeigt werden."
+
+#: functions/functions.module-management.inc.php:512
+msgid "Mode"
+msgstr "Modus"
+
+#: functions/functions.module-management.inc.php:533 help/lms.php:7
+msgid "Requirements"
+msgstr "Vorraussetzungen"
+
+#: functions/functions.module-management.inc.php:535
+msgid "Defines the requirements users have to fulfill to access this element."
+msgstr ""
+"Legt die Vorraussetzungen fest die User erfüllen müssen um Zugriff zu diesem "
+"Element zu erlangen."
+
+#: functions/functions.module-management.inc.php:545
+msgid ""
+"Defines the worth in points of an item or respectively how many points a "
+"user has to have to gain access."
+msgstr ""
+"Legt den Wert in Punkten eines Elements fest, bzw. wie viele Punkte ein User "
+"erreicht haben muss um Zugriff zu erhalten."
+
+#: functions/functions.module-management.inc.php:555
+msgid "Practice points"
+msgstr "Übungspunkte"
+
+#: functions/functions.module-management.inc.php:560
+msgid "Required"
+msgstr "Benötigt"
+
+#: functions/functions.module-management.inc.php:567
+msgid "Required level"
+msgstr "Benötigte Stufe"
+
+#: functions/functions.module-management.inc.php:569 help/lms.php:12
+msgid "Defines the level a user has to have reached to access an item."
+msgstr ""
+"Legt die Stufe fest die ein User erreicht haben muss um Zugriff zu einem "
+"Element zu erhalten."
+
+#: functions/functions.module-management.inc.php:573 help/settings.php:9
+#: templates/part-exp-title.php:6
+msgid "Level"
+msgstr "Level"
+
+#: functions/functions.module-management.inc.php:581
+msgid "Module must be repeated periodically"
+msgstr "Lektion muss periodisch wiederholt werden"
+
+#: functions/functions.module-management.inc.php:583
+msgid "Defines the interval in which a module has to be repeated."
+msgstr "Legt den Intervall fest in dem die Lektion wiederholt werden muss."
+
+#: functions/functions.module-management.inc.php:624
+msgid ""
+"There are modules inside the old module Directory. Click here to start the "
+"migration: "
+msgstr ""
+"Es befinden sich Lektionen im alten Lektionsvereichnis. Klicke hier um die "
+"Migration zu starten: "
+
+#: functions/functions.module-management.inc.php:624
+msgid "migrate modules"
+msgstr "Lektionen migrieren"
+
+#: functions/functions.module-management.inc.php:664
+msgid "Language changed."
+msgstr "Sprache geändert."
+
+#: functions/functions.module-management.inc.php:666
+msgid ""
+"Failed to change language. The module probably already exists in this "
+"language."
+msgstr ""
+"Fehler beim Ändern der Sprache. Die Lektion existiert möglicherweise bereits "
+"in dieser Sprache."
+
+#: functions/functions.module-management.inc.php:669
+msgid "Invalid module"
+msgstr "Ungültige Lektion"
+
+#: functions/functions.module-management.inc.php:722
+#: functions/functions.module-management.inc.php:810
+msgid "Add Module"
+msgstr "Lektion hinzufügen"
+
+#: functions/functions.module-management.inc.php:728
+msgid "You can add new modules to your LMS here."
+msgstr "Hier kannst du neue Lektionen zu deinem LMS hinzufügen."
+
+#: functions/functions.module-management.inc.php:729
+msgid "The following module types are currently available"
+msgstr "Die folgenden Lektionstypen sind derzeit verfügbar"
+
+#: functions/functions.module-management.inc.php:742
+msgid "The module is being uploaded, one moment please..."
+msgstr "Die Lektion wird hochgeladen, einen Moment bitte..."
+
+#: functions/functions.module-management.inc.php:751
+msgid "Continue"
+msgstr "Weiter"
+
+#: functions/functions.module-management.inc.php:755
+msgid "Select a module type to display further information."
+msgstr "Wähle einen Lektionstyp aus um weitere Informationen zu erhalten."
+
+#: functions/functions.module-management.inc.php:786
+msgid "Install Module"
+msgstr "Lektion Installieren"
+
+#: functions/functions.module-management.inc.php:789
+msgid "Max. Filesize: "
+msgstr "Max. Dateigröße: "
+
+#: functions/functions.module-management.inc.php:799
+msgid "Select another module type"
+msgstr "Anderen Lektionstyp wählen"
+
+#: functions/functions.module-management.inc.php:808
+msgid "Module deleted."
+msgstr "Lektion gelöscht."
+
+#: functions/functions.module-management.inc.php:816
+msgid "Module metadata post created."
+msgstr "Lektion Metadata Post erstellt."
+
+#: functions/functions.module-management.inc.php:820
+msgid "Select Language"
+msgstr "Sprache auswählen"
+
+#: functions/functions.module-management.inc.php:848
+msgid "Language"
+msgstr "Sprache"
+
+#: functions/functions.module-management.inc.php:871
+msgid "Change Name"
+msgstr "Name ändern"
+
+#: functions/functions.module-management.inc.php:873
+msgid "Open module page for editing"
+msgstr "Lektionsseite zur Bearbeitung öffnen"
+
+#: functions/functions.module-management.inc.php:875
+msgid "Create module page"
+msgstr "Lektionsseite erstellen"
+
+#: functions/functions.module-management.inc.php:877
+msgid "Delete Module"
+msgstr "Lektion löschen"
+
+#: functions/functions.module-management.inc.php:879
+msgid "No SCORM parameters available for this module"
+msgstr "Keine SCORM Parameter für diese Lektion verfügbar"
+
+#: functions/functions.module-management.inc.php:883
+msgid "Browse Reports"
+msgstr "Auswertungen durchsuchen"
+
+#: functions/functions.module-management.inc.php:884
+msgid "Download Module"
+msgstr "Lektion herunterladen"
+
+#: functions/functions.module-management.inc.php:897
+msgid ""
+"No modules have been added yet. Click here to add our demo course and demo "
+"modules: "
+msgstr ""
+"Es wurden noch keine Lektionen hochgeladen. Klicke hier um unseren Demo Kurs "
+"mit Demo Lektionen zu installieren: "
+
+#: functions/functions.module-management.inc.php:905
+msgid "Learning tree"
+msgstr "Lernstruktur"
+
+#: functions/functions.module-management.inc.php:955
+msgid "No handler for this content type could be found"
+msgstr "Keinen Handler für diesen Inhaltstyp gefunden."
+
+#: functions/functions.module-management.inc.php:1026 rest/rest-api.php:152
+msgid "New Course"
+msgstr "Neuer Kurs"
+
+#: functions/functions.module-management.inc.php:1027 rest/rest-api.php:155
+msgid "New Chapter"
+msgstr "Neues Kapitel"
+
+#: functions/functions.module-management.inc.php:1028 rest/rest-api.php:158
+msgid "New Module"
+msgstr "Neue Lektion"
+
+#: functions/functions.module-management.inc.php:1029
+msgid "Without Module"
+msgstr "Ohne Lektion"
+
+#: functions/functions.module-management.inc.php:1030
+msgid "Really delete this element?"
+msgstr "Dieses Element wirklich löschen?"
+
+#: functions/functions.module-management.inc.php:1031
+msgid "Shortcode copied!"
+msgstr "Shortcode kopiert!"
+
+#: functions/functions.module-management.inc.php:1032
+msgid ""
+"Install demo course and modules? The modules will be downloaded from our "
+"homepage and installed to your LMS."
+msgstr ""
+"Demo Kurs mit Demo Lektionen installieren? Die Lektionen werden von userer "
+"Homepage heruntergeladen und in deinem LMS installiert."
+
+#: functions/functions.module-management.inc.php:1055
+msgid "Search"
+msgstr "Suche"
+
+#: functions/functions.module-management.inc.php:1056
+msgid "Search term"
+msgstr "Suchbegriff"
+
+#: functions/functions.module-management.inc.php:1058
+msgid "All"
+msgstr "Alle"
+
+#: functions/functions.module-management.inc.php:1076
+msgid "Really delete this module? This action can't be undone."
+msgstr ""
+"Lektion wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden."
+
+#: functions/functions.module-management.inc.php:1077
+msgid "Install module from URL"
+msgstr "Lektion von URL installieren"
+
+#: functions/functions.module-management.inc.php:1078
+msgid "Upload module file"
+msgstr "Lektion hochladen"
+
+#: functions/functions.module-management.inc.php:1079
+msgid ""
+"Install demo course and modules. The modules will be downloaded from our "
+"homepage and installed to your LMS"
+msgstr ""
+"Demo Kurs und Demo Lektionen installieren. Die Lektionen werden von userer "
+"Homepage heruntergeladen und in deinem LMS installiert."
+
+#: functions/functions.module-management.inc.php:1080
+msgid "New Name"
+msgstr "Neuer Name"
+
+#: functions/functions.module-management.inc.php:1081
+msgid ""
+"The module could not be renamed. A module with the same name may already "
+"exist or the module is no longer available."
+msgstr ""
+"Die Lektion konnte nicht umbenannt werden. Eine Lektion mit diesem Namen "
+"existiert möglicherweise bereits oder die Lektion ist nicht mehr verfügbar."
+
+#: functions/functions.module-management.inc.php:1082
+msgid ""
+"The module has been uploaded. One moment please while it is being installed."
+msgstr "Lektion hochgeladen. Einen Moment bitte während sie installiert wird."
+
+#: functions/functions.module-management.inc.php:1083
+msgid "Installation completed."
+msgstr "Installation abgeschlossen"
+
+#: functions/functions.module-management.inc.php:1084
+msgid "Module uploaded. Refresh the page to enable the tools."
+msgstr ""
+"Lektion hochgeladen. Aktualisiere die Seite um die Werkzeuge zu aktivieren."
+
+#: functions/functions.module-management.inc.php:1085
+msgid "Installation failed."
+msgstr "Installation fehlgeschlagen."
+
+#: functions/functions.module-management.inc.php:1086
+msgid "Upload failed."
+msgstr "Upload fehlgeschlagen."
+
+#: functions/functions.module-management.inc.php:1115
+msgid "Lightbox Settings"
+msgstr "Lightbox Einstellungen"
+
+#: functions/functions.module-management.inc.php:1117
+msgid "These settings configure the lightbox."
+msgstr "Diese Einstellungen konfigurieren die Lightbox"
+
+#: functions/functions.module-management.inc.php:1123
+msgid "Hide Button"
+msgstr "Button ausblenden"
+
+#: functions/functions.module-management.inc.php:1131
+msgid "Button Text"
+msgstr "Button Text"
+
+#: functions/functions.module-management.inc.php:1139
+msgid "Button Position"
+msgstr "Button Position"
+
+#: functions/functions.module-management.inc.php:1143
+msgid "Default"
+msgstr "Standard"
+
+#: functions/functions.module-management.inc.php:1144
+msgid "top left"
+msgstr "oben links"
+
+#: functions/functions.module-management.inc.php:1145
+msgid "top center"
+msgstr "oben mitte"
+
+#: functions/functions.module-management.inc.php:1146
+msgid "top right"
+msgstr "oben rechts"
+
+#: functions/functions.module-management.inc.php:1147
+msgid "bottom left"
+msgstr "unten links"
+
+#: functions/functions.module-management.inc.php:1148
+msgid "bottom center"
+msgstr "unten mitte"
+
+#: functions/functions.module-management.inc.php:1149
+msgid "bottom right"
+msgstr "unten rechts"
+
+#: functions/functions.module-management.inc.php:1161
+msgid "Info Box Settings"
+msgstr "Info Box Einstellungen"
+
+#: functions/functions.module-management.inc.php:1163
+msgid ""
+"Customize the message that are displayed if an element is empty or "
+"permissions are required."
+msgstr ""
+"Passt die Nachricht an die angezeigt wird wenn ein Element leer ist oder "
+"Berechtigungen benötigt werden."
+
+#: functions/functions.module-management.inc.php:1168
+msgid "Hide Info Box"
+msgstr "Meldung ausblenden"
+
+#: functions/functions.module-management.inc.php:1174
+msgid "Element is empty text"
+msgstr "Dieses Element ist leer."
+
+#: functions/functions.module-management.inc.php:1181
+msgid "Hide access denied box"
+msgstr "Zugriff Verweigert Meldung ausblenden"
+
+#: functions/functions.module-management.inc.php:1187
+msgid "Access denied text"
+msgstr "Zugriff Verweigert Text"
+
+#: functions/functions.module-management.inc.php:1207
+msgid "Item is a link"
+msgstr "Element ist ein Link"
+
+#: functions/functions.module-management.inc.php:1209
+msgid ""
+"This item links to some other content. Assigned modules won't start, users "
+"will be sent the entered link instead."
+msgstr ""
+"Dieses Element verweist auf einen anderen Inhalt. Zugewiesene Lektionen "
+"haben keine Funktion, Benutzer werden stattdessen auf den Link verwiesen."
+
+#: functions/functions.module-management.inc.php:1214
+msgid "Open link in new window"
+msgstr "Link in neuem Fenster öffnen"
+
+#: functions/functions.module-management.inc.php:1222
+msgid "SCORM 1.2"
+msgstr "SCORM 1.2"
+
+#: functions/functions.module-management.inc.php:1224
+#: functions/functions.module-management.inc.php:1234
+msgid "Upload a SCORM module or enter a link to a SCORM module file."
+msgstr "SCORM Modul hochladen oder einen Link zu einer SCORM Datei eingeben."
+
+#: functions/functions.module-management.inc.php:1227
+#: functions/functions.module-management.inc.php:1237
+#: functions/functions.module-management.inc.php:1257
+msgid "https://"
+msgstr "https://"
+
+#: functions/functions.module-management.inc.php:1228
+#: functions/functions.module-management.inc.php:1238
+msgid "select file"
+msgstr "Datei auswählen"
+
+#: functions/functions.module-management.inc.php:1242
+msgid "Audio File"
+msgstr "Audio Datei"
+
+#: functions/functions.module-management.inc.php:1244
+msgid "Upload a audio file or enter a link to a audio file."
+msgstr "Audio Datei hochladen oder einen Link zu einer Audio Datei eingeben."
+
+#: functions/functions.module-management.inc.php:1248
+msgid "select audio file"
+msgstr "Audio Datei auswählen"
+
+#: functions/functions.module-management.inc.php:1252
+msgid "Video File"
+msgstr "Video Datei"
+
+#: functions/functions.module-management.inc.php:1254
+msgid "Upload a video file or enter a link to a video file."
+msgstr "Video Datei hochladen oder einen Link zu einer Video Datei eingeben."
+
+#: functions/functions.module-management.inc.php:1258
+msgid "select video file"
+msgstr "Video Datei auswählen"
+
+#: functions/functions.module-management.inc.php:1262
+msgid "YouTube, Vimeo, etc."
+msgstr "YouTube, Vimeo, etc."
+
+#: functions/functions.module-management.inc.php:1264
+msgid ""
+"Install the CLUEVO Video Tutorial Manager extension to embed content from "
+"YouTube and many other sites."
+msgstr ""
+"Installiere die CLUEVO Video Tutorial Manager Erweiterung um Inhalte von "
+"YouTube und vielen anderen Seiten einzubinden."
+
+#: functions/functions.module-management.inc.php:1271
+msgid "Install CLUEVO oEmbed extension"
+msgstr "CLUEVO oEmbed Erweiterung installieren"
+
+#: functions/functions.module-management.inc.php:1275
+msgid "Google Documents"
+msgstr "Google Dokumente"
+
+#: functions/functions.module-management.inc.php:1277
+msgid ""
+"Install the CLUEVO Google Documents extension to use your Google Documents "
+"as modules in your LMS."
+msgstr ""
+"Installiere die CLUEVO Google Documents Erweiterung um Google Dokumente in "
+"deinem LMS als Module zu verwenden."
+
+#: functions/functions.module-management.inc.php:1284
+msgid "Install CLUEVO Google Docs extension"
+msgstr "CLUEVO Google Documents Erweiterung installieren"
+
+#: functions/functions.update.inc.php:45 functions/functions.update.inc.php:88
+msgid "The update request returned an invalid response."
+msgstr "Die Update Abfrage lieferte eine ungültige Antwort."
+
+#: functions/functions.update.inc.php:48
+msgid "An error occurred while updating the plugin."
+msgstr "Beim Update des Plugins ist ein Fehler aufgetreten."
+
+#: functions/functions.update.inc.php:51 functions/functions.update.inc.php:91
+msgid "The update server returned an error."
+msgstr "Der Updateserver hat mit einem Fehler geantwortet."
+
+#: functions/functions.update.inc.php:94
+msgid "An error occurred while checking for updates."
+msgstr "Beim Prüfen auf Updates ist ein Fehler aufgetreten."
+
+#: functions/functions.user-profile.inc.php:142
+msgid "Standalone Competences"
+msgstr "Einzelne Kompetenzen"
+
+#: functions/functions.utilities.inc.php:617
+#: functions/functions.utilities.inc.php:625
+msgid "This element is empty."
+msgstr "Dieses Element is leer."
+
+#: functions/functions.utilities.inc.php:641
+#: functions/functions.utilities.inc.php:649
+msgid "You do not have the required permissions to access this element"
+msgstr ""
+"Du verfügst nicht über die benötigten Berechtigungen um auf diesen Inhalt "
+"zugreifen zu können."
+
+#: help/competence.php:3
+msgid ""
+"The CLUEVO LMS lets you define different competences and organize these "
+"competences into competence groups."
+msgstr ""
+"Mit dem CLUEVO LMS kannst du verschiedene Kompetenzen definieren und diese "
+"in Kompetenzgruppen zusammenfassen."
+
+#: help/competence.php:4
+msgid ""
+"Competences can be assigned to modules and each module can cover a "
+"competence to various degrees."
+msgstr ""
+"Kompetenzen können verschiedenen Lektionen zugeteilt werden und jede Lektion "
+"kann eine Kompetenz zu verschiedenen Graden abdecken."
+
+#: help/competence.php:5
+msgid ""
+"Example: The module 'Marketing Intro' covers the competence 'Marketing' by "
+"20%, further modules could cover this competence even more."
+msgstr ""
+"Beispiel: Die Lektion 'Marketing Einführung' deckt die Kompetenz 'Marketing' "
+"zu 20% ab, weitere Lektionen können diese Kompetenz weiter abdecken."
+
+#: help/competence.php:7
+msgid "Competence groups are made up of multiple competences."
+msgstr "Kompetenzgruppen bestehen aus mehreren Kompetenzen."
+
+#: help/lms.php:2
+msgid "Learning Tree"
+msgstr "Lernstruktur"
+
+#: help/lms.php:3
+msgid ""
+"The learning structure consists of courses, chapters and modules. Within "
+"each level you can organize the elements by dragging and dropping them (as "
+"long as there are no dependencies that prohibit this)."
+msgstr ""
+"Die Lernstruktur besteht aus Kursen, Kapiteln und Lektionen. Du kannst "
+"Elemente innerhalb der selben Ebene per Drag & Drop verschieben (solange sie "
+"nicht von anderen Elementen abhängig sind)"
+
+#: help/lms.php:4
+msgid ""
+"With the WordPress button that is shown for each item (after first saving "
+"the tree) you can edit an items post. You can set the thumbnail for an item "
+"by changing the posts thumbnail."
+msgstr ""
+"Der WordPress Button bei jedem Element (nach dem Speichern der Struktur) "
+"öffnet den WordPress Post eines Elements zur Bearbeitung. Im Post kannst du "
+"ein Thumbnail für das Element hochladen."
+
+#: help/lms.php:5
+msgid "Item Settings"
+msgstr "Element Einstellungen"
+
+#: help/lms.php:6
+msgid "You can edit various settings for each individual item here."
+msgstr ""
+"Du kannst hier verschiedene Einstellungen zu dein Einzelnen Elementen "
+"vornehmen."
+
+#: help/lms.php:8
+msgid ""
+"You can set dependencies between items here. This way you can structure in "
+"what order your users can access different elements."
+msgstr ""
+"Hier kannst du verschiedene Vorraussetzungen definieren die User erfüllen "
+"müssen um auf Inhalte zugreifen zu können. So kannst du strukturieren in "
+"welcher Reihenfolge deine User auf verschiedene Elemente zugreifen können."
+
+#: help/lms.php:10
+msgid ""
+"For each completion of a module your users are awarded a certain amount of "
+"points, subsequent attempts award practice points. You can also restrict "
+"item access to a point threshold."
+msgstr ""
+"Jeder Abschluss einer Lektion belohnt deine User mit einer bestimmten Anzahl "
+"an Punkten, weitere Versuche werden mit Übungspunkten belohnt. Du kannst den "
+"Zugriff auf Elemente an eine bestimmte Punktezahl binden die der User "
+"erreichen muss."
+
+#: help/lms.php:11
+msgid "Required Level"
+msgstr "Benötigte Stufe"
+
+#: help/permissions.php:3
+msgid "You can add, remove or edit your LMS users."
+msgstr "Hier kannst du LMS User erstellen, bearbeiten oder löschen."
+
+#: help/permissions.php:4
+msgid ""
+"With the '+' button you can assign a user to a new group. By clicking on a "
+"group you can edit the user's group membership."
+msgstr ""
+"Mit dem '+' Button kannst du einen User einer Gruppe zuweisen. Durck einen "
+"klick auf eine Gruppe kannst du die Mitgliedschaft des Users bearbeiten."
+
+#: help/permissions.php:6
+msgid "You can add new user groups here."
+msgstr "Hier kannst du neue Gruppen erstellen."
+
+#: help/permissions.php:8
+msgid ""
+"The CLUEVO LMS enables you to build detailed permission structures. This way "
+"you can set explicitly who can access which content."
+msgstr ""
+"CLUEVO LMS ermöglicht es dir detaillierte Berechtigungsstrukturen zu "
+"erstellen. So kannst du ganz genau festlegen wer Zugriff auf welche Inhalte "
+"hat."
+
+#: help/posts.php:2
+msgid "Posts"
+msgstr "Posts"
+
+#: help/posts.php:3
+msgid ""
+"Each item in the learning structure is displayed through a post. These posts "
+"can be edited like all other WordPress posts, the content of each post is "
+"displayed on the frontend of the LMS."
+msgstr ""
+"Jedes Element der Lernstruktur wird durch einen Post dargestellt. Diese "
+"Posts können wie alle anderen WordPress Posts bearbeitet werden. Der Inhalt "
+"der Posts wird im Frontend des LMS angezeigt."
+
+#: help/posts.php:4
+#, php-format
+msgid ""
+"The post thumbnail is displayed as the item's thumbnail within the tile on "
+"the frontend of the LMS. The ideal thumbnail size is %s pixels"
+msgstr ""
+"Das Post Thumbnail wird als Thumbnail des Elements im Frontend des LMS "
+"angezeigt. Die ideale Größe für Thumbnails ist %s Pixel"
+
+#: help/reports.php:4
+msgid "You can see short reports for each of your learning items here."
+msgstr "Hier siehst du kurze Auswertungen zu jedem deiner Lerninhalte."
+
+#: help/reports.php:6
+msgid ""
+"This is where you can see your user's progress. You can see who completed "
+"which modules, how many times modules have been attempted, etc."
+msgstr ""
+"Hier siehst du die Fortschritte deiner User. Du siehst wer welche Lektionen "
+"abgeschlossen hat, wieviele Versuche gestarted wurden, etc."
+
+#: help/reports.php:8
+msgid ""
+"You can see your users' SCORM parameters here. Each attempt generates a new "
+"set of parameters."
+msgstr ""
+"Hier siehst du die SCORM Parameter deine User. Jeder Verscuch einer Lektion "
+"generiert ein neues Set an Parametern."
+
+#: help/settings.php:3
+msgid "You can set various settings here."
+msgstr "Hier kannst du verschiedene Einstellungen vornehmen."
+
+#: help/settings.php:4
+msgid "Titles / Levels"
+msgstr "Titel / Stufen"
+
+#: help/settings.php:5
+msgid ""
+"You can set different titles for your levels. The amount of experience "
+"points needed for a levelup is calculated from the amount required for the "
+"initial level-up."
+msgstr ""
+"Du kannst Titel für deine Stufen definieren. Die benötigten Erfahrungspunkte "
+"für einen Stufenaufstieg errechnet sich aus der für den ersten "
+"Stufenaufstieg benötigten Anzahl an Erfahrungspunkten."
+
+#: help/settings.php:10
+msgid "Next Level"
+msgstr "Nächste Stufe"
+
+#: install/plugin-activate.inc.php:41
+msgid "Premium"
+msgstr "Premium"
+
+#: install/plugin-activate.inc.php:412 install/plugin-activate.inc.php:415
+msgid "Course group"
+msgstr "Kursgruppe"
+
+#: install/plugin-activate.inc.php:416
+msgid "Course group made up of courses"
+msgstr "Kursgruppe bestehend aus Kursen"
+
+#: install/plugin-activate.inc.php:417
+msgid "course-group"
+msgstr "kursgruppe"
+
+#: install/plugin-activate.inc.php:428
+msgid "Course made up of chapters"
+msgstr "Kurs bestehend aus Kapitel"
+
+#: install/plugin-activate.inc.php:441
+msgid "Chapter made up of modules"
+msgstr "Kapitel bestehend aus Lektionen"
+
+#: install/plugin-activate.inc.php:454
+msgid "A learning module"
+msgstr "Eine Lektion"
+
+#: install/plugin-activate.inc.php:469
+msgid "A SCORM module"
+msgstr "Ein SCORM Modul"
+
+#: install/plugin-activate.inc.php:470
+msgid "scorm-module"
+msgstr "scorm-modul"
+
+#: install/plugin-activate.inc.php:481
+msgid "competences"
+msgstr "kompetenzen"
+
+#: install/plugin-activate.inc.php:493
+msgid "competence"
+msgstr "kompetenz"
+
+#: install/plugin-activate.inc.php:505
+msgid "competence-group"
+msgstr "kompetenzgruppe"
+
+#: install/plugin-activate.inc.php:645
+#, php-format
+msgid "An error occurred while trying to create the directory %s"
+msgstr "Beim Erstellen des Verzeichnisses %s ist ein Fehler aufgetreten."
+
+#: install/plugin-activate.inc.php:650
+#, php-format
+msgid "An error occurred while trying to move the file %s"
+msgstr "Beim Verschieben der Datei %s ist ein Fehler aufgetreten."
+
+#: install/plugin-activate.inc.php:659 install/plugin-activate.inc.php:669
+#: install/plugin-activate.inc.php:674
+#, php-format
+msgid ""
+"The module %s could not be migrated. The module already exists at the new "
+"path"
+msgstr ""
+"Die Lektion %s konnte nicht migriert werden. Die Lektion existiert im neuen "
+"Pfad bereits."
+
+#: install/plugin-activate.inc.php:700 install/plugin-activate.inc.php:704
+msgid "My Learning Tree"
+msgstr "Meine Lernstruktur"
+
+#: install/plugin-activate.inc.php:737
+msgid "Demo Course"
+msgstr "Demo Kurs"
+
+#: install/plugin-activate.inc.php:748
+msgid "Demo Chapter"
+msgstr "Demo Kapitel"
+
+#: install/plugin-activate.inc.php:816
+#, php-format
+msgid "An error occurred while migrating the module: %s"
+msgstr "Beim Migrieren des Moduls %s ist ein Fehler aufgetreten."
+
+#: install/plugin-activate.inc.php:819
+#, php-format
+msgid "Failed to update the module directory in the database: %s"
+msgstr "Fehler beim Aktualisieren des Lektionsverzeichnisses: %s"
+
+#: install/plugin-activate.inc.php:823
+#, php-format
+msgid "Target already exists: %s"
+msgstr "Ziel existiert bereits: %s"
+
+#: install/plugin-activate.inc.php:826 install/plugin-activate.inc.php:852
+#, php-format
+msgid "Source file does not exist: %s"
+msgstr "Quelldatei existiert nicht: %s"
+
+#: install/plugin-activate.inc.php:842
+#, php-format
+msgid "An error occurred while trying to migrate the module ZIP file: %s"
+msgstr "Beim Migrieren der ZIP Datei %s ist ein Fehler aufgetreten."
+
+#: install/plugin-activate.inc.php:845
+#, php-format
+msgid "Failed to update the module zip file in the database: %s"
+msgstr "Fehler beim Update der ZIP Datei der Lektion %s in der Datenbank."
+
+#: install/plugin-activate.inc.php:849
+#, php-format
+msgid "Target file already exists: %s"
+msgstr "Zieldatei existiert bereits: %s"
+
+#: rest/rest-api.php:44
+msgid "No handler for this module type could be found."
+msgstr "Keinen Handler für diesen Lektionstyp gefunden."
+
+#: rest/rest-api.php:161
+msgid "New Item"
+msgstr "Neues Element"
+
+#: rest/routes.bbb.php:19
+msgid "Webinar system not configured."
+msgstr "Webinar System nicht konfiguriert"
+
+#: rest/routes.competences.php:24 rest/routes.competences.php:197
+msgid "New Competence"
+msgstr "Neue Kompetenz"
+
+#: rest/routes.competences.php:35 rest/routes.competences.php:198
+msgid "New Competence Group"
+msgstr "Neue Kompetenzgruppe"
+
+#: rest/routes.competences.php:193
+msgid "Really delete the competence {name}?"
+msgstr "Die Kompetenz {name} wirklich löschen?"
+
+#: rest/routes.competences.php:195
+msgid "Delete"
+msgstr "Löschen"
+
+#: rest/routes.competences.php:196
+msgid "Really delete the competence group {name}?"
+msgstr "Die Kompetenzgruppe {name} wirklich löschen?"
+
+#: templates/cluevo-course-index.php:18
+msgid "The course index is empty. You can add courses through the admin area."
+msgstr ""
+"Der Kursindex ist leer. Du kannst im Admin Bereich Kurse erstellen und "
+"Lektionen hochladen."
+
+#: templates/cluevo-course-index.php:23
+msgid ""
+"The course index is empty or you do not have the required permissions to "
+"access this page"
+msgstr ""
+"Der Kursindex ist leer oder du verfügst nicht über die benötigten "
+"Berechtigungen um auf diese Seite zuzugreifen."
+
+#: templates/cluevo-item-not-found.php:2
+msgid "Oooops!"
+msgstr "Hoppala!"
+
+#: templates/cluevo-item-not-found.php:3
+msgid "This element does not seem to exist!"
+msgstr "Dieses Element existiert nicht!"
+
+#: templates/cluevo-shortcode-tree-index.php:12
+#: templates/cluevo-tree-item-bare.php:12
+msgid "The course index is empty."
+msgstr "Der Kursindex ist leer."
+
+#: templates/cluevo-tree-item-module-shortcode.php:16
+#: templates/cluevo-tree-item-module.php:32 templates/cluevo-tree-item.php:68
+msgid "This module does not seem to exist."
+msgstr "Diese Lektion scheint nicht zu existieren."
+
+#: templates/cluevo-tree-item-module-shortcode.php:18
+#: templates/cluevo-tree-item-module.php:56
+msgid "You do not have the required permissions to access this page."
+msgstr ""
+"Du verfügst nicht über die benötigten Berechtigungen um auf diese Seite "
+"zugreifen zu können."
+
+#: templates/page-logout.php:17
+msgid "You have been signed out."
+msgstr "Du wurdest abgemeldet."
+
+#: templates/page-not-logged-in.php:11
+msgid "Oooops! - Access Denied"
+msgstr "Hoppala! - Zugriff Verweigert"
+
+#: templates/page-not-logged-in.php:14 templates/scorm-module-iframe.php:18
+msgid "You have to be logged in to access learning content."
+msgstr "Du musst angemeldet sein um auf Lerninhalte zugreifen zu können."
+
+#: templates/page-user.php:17
+msgid "This page shows you a summary of your learning progress."
+msgstr "Diese Seite zeigt dir eine Zusammenfassung deines Lernfortschrittes."
+
+#: templates/part-login-form.php:12
+msgid "Password"
+msgstr "Passwort"
+
+#: templates/part-login-form.php:13
+msgid "Remember Me"
+msgstr "Angemeldet bleiben"
+
+#: templates/part-login-form.php:14
+msgid "Log In"
+msgstr "Log In"
+
+#: templates/scorm-access-error.php:6
+msgid "You do not meet the requirements needed to access this content"
+msgstr ""
+"Du hast noch nicht die notwendigen Vorraussetzungen erreicht um auf diesen "
+"Inhalt zugreifen zu können."
+
+#: templates/scorm-access-error.php:8
+msgid "Complete the following items to gain access."
+msgstr "Schließe die folgenden Inhalte ab um Zugriff zu erlangen."
+
+#: templates/scorm-access-error.php:18
+msgid "You do not have the required points to access this content."
+msgstr ""
+"Du hast noch nicht genügend Punkte erreicht um auf diesen Inhalt zugreifen "
+"zu können."
+
+#: templates/scorm-access-error.php:21
+msgid "You have not reached the required level to access this content."
+msgstr ""
+"Du hast noch nicht die notwendige Stufe erreicht um auf diesen Inhalt "
+"zugreifen zu können."
+
+#: templates/scorm-module-iframe.php:44
+msgid "You have already completed this content."
+msgstr "Du hast diesen Inhalt bereits absolviert."
+
+#. Description of the plugin
+msgid ""
+"CLUEVO LMS ist ein Plugin das deine WordPress Installation in ein Learning "
+"Management System verwandelt"
+msgstr ""
+"CLUEVO LMS ist ein Plugin das deine WordPress Installation in ein Learning "
+"Management System verwandelt"
+
+#. Author URI of the plugin
+msgid "https://www.cluevo.at/"
+msgstr "https://www.cluevo.at/"
+
+#~ msgid "Import/Export"
+#~ msgstr "Import/Export\v"
+
+#~ msgid "Export Data"
+#~ msgstr "Daten exportieren"
+
+#~ msgid "Settings new"
+#~ msgstr "Einstellungen"
+
+#, fuzzy
+#~| msgid "modul"
+#~ msgid "moduel"
+#~ msgstr "modul"
+
+#~ msgid "Hint"
+#~ msgstr "Hinweis"
+
+#, php-format
+#~ msgid "Source file already exists: %s"
+#~ msgstr "Quelldatei existiert nicht: %s"
+
+#~ msgid "You do not have the required permissions to access this page"
+#~ msgstr ""
+#~ "Du verfügst nicht über die benötigten Berechtigungen um auf diese Seite "
+#~ "zugreifen zu können."
+
+#~ msgid "Benutzer"
+#~ msgstr "Benutzer"
+
+#~ msgid "Auswertung"
+#~ msgstr "Auswertung"
+
+#~ msgid "Kompetenz"
+#~ msgstr "Kompetenz"
+
+#~ msgid "Einstellungen"
+#~ msgstr "Einstellungen"
+
+#~ msgid "CLUEVO Seite"
+#~ msgstr "CLUEVO Seite"
+
+#~ msgid "Cluevo Content"
+#~ msgstr "Cluevo Content"
+
+#~ msgid "Das Modul wird geladen, einen Moment bitte..."
+#~ msgstr "Die Lektion wird hochgeladen. Einen Moment bitte."
+
+#~ msgid "Fehler beim Laden des Moduls."
+#~ msgstr "Fehler beim Laden der Lektion."
+
+#~ msgid "Schließen"
+#~ msgstr "Schließen"
+
+#~ msgid "Bitte wähle eine Lerneinheit zum Starten aus."
+#~ msgstr "Bitte wähle eine Lerneinheit zum Starten aus."
+
+#~ msgid "Fehler"
+#~ msgstr "Fehler"
+
+#~ msgid "Ein Modul wurde bereits gestartet."
+#~ msgstr "Ein Modul wurde bereits gestartet."
+
+#~ msgid "Zugriff verweigert"
+#~ msgstr "Zugriff verweigert"
+
+#~ msgid "Du bist nicht berechtigt auf diesen Inhalt zuzugreifen."
+#~ msgstr "Du bist nicht berechtigt auf diesen Inhalt zuzugreifen."
+
+#~ msgid "Es konnte keine Verbindung zum LMS hergestellt werden."
+#~ msgstr "Es konnte keine Verbindung zum LMS hergestellt werden."
+
+#~ msgid "Bitte wähle eine Lerneinheit aus"
+#~ msgstr "Bitte wähle eine Lerneinheit aus"
+
+#~ msgid "Auswertungen"
+#~ msgstr "Auswertungen"
+
+#~ msgid "Benutzer / Berechtigungen"
+#~ msgstr "Benutzer / Berechtigungen"
+
+#~ msgid ""
+#~ "Du hast eine oder mehrere CLUEVO Erweiterungen installiert. Bitte prüfe "
+#~ "vor dem Update die Kompatibilität."
+#~ msgstr ""
+#~ "Du hast eine oder mehrere CLUEVO Erweiterungen installiert. Bitte prüfe "
+#~ "vor dem Update die Kompatibilität."
+
+#~ msgid ""
+#~ "Eines oder mehrere deiner installierten CLUEVO LMS Erweiterungen sind "
+#~ "nicht mit der installierten Version kompatibel bzw. wurden nicht "
+#~ "getestet. Bitte deaktiviere oder update diese Erweiterungen so schnell "
+#~ "wie möglich."
+#~ msgstr ""
+#~ "Eines oder mehrere deiner installierten CLUEVO LMS Erweiterungen sind "
+#~ "nicht mit der installierten Version kompatibel bzw. wurden nicht "
+#~ "getestet. Bitte deaktiviere oder update diese Erweiterungen so schnell "
+#~ "wie möglich."
+
+#, php-format
+#~ msgid ""
+#~ "CLUEVO LMS benötigt mindestens MySQL Server Version %s. Deine Version: "
+#~ "%s. Bitte aktualisiere deine MySQL Server Version bevor du dieses Plugin "
+#~ "verwendest. Das Plugin wird mit dieser Version nicht korrekt "
+#~ "funktionieren."
+#~ msgstr ""
+#~ "CLUEVO LMS benötigt mindestens MySQL Server Version %s. Deine Version: "
+#~ "%s. Bitte aktualisiere deine MySQL Server Version bevor du dieses Plugin "
+#~ "verwendest. Das Plugin wird mit dieser Version nicht korrekt "
+#~ "funktionieren."
+
+#, php-format
+#~| msgid ""
+#~| "CLUEVO LMS benötigt eine PHP Version >= %s. Bitte aktualisiere deine PHP "
+#~| "Version um dieses Plugin zu verwenden"
+#~ msgid ""
+#~ "CLUEVO LMS benötigt mindestens PHP Version %s. Deine PHP Version: %s. "
+#~ "Bitte aktualisiere deine PHP Version um dieses Plugin zu verwenden."
+#~ msgstr ""
+#~ "CLUEVO LMS benötigt mindestens PHP Version %s. Deine PHP Version: %s. "
+#~ "Bitte aktualisiere deine PHP Version um dieses Plugin zu verwenden."
+
+#~ msgid "Hinweis"
+#~ msgstr "Hinweis"
+
+#~ msgid ""
+#~ "Der Kursindex ist leer. Füge Inhalte im Admin Bereich hinzu oder prüfe "
+#~ "die Berechtigungsstruktur."
+#~ msgstr ""
+#~ "Der Kursindex ist leer. Füge Inhalte im Admin Bereich hinzu oder prüfe "
+#~ "die Berechtigungsstruktur."
+
+#~ msgid ""
+#~ "Der Kursindex ist leer oder du hast keine Berechtigung diese Inhalte "
+#~ "anzuzeigen."
+#~ msgstr ""
+#~ "Der Kursindex ist leer oder du hast keine Berechtigung diese Inhalte "
+#~ "anzuzeigen."
+
+#~ msgid "Hoppala!"
+#~ msgstr "Hoppala!"
+
+#~ msgid "Dieses Element scheint nicht zu existieren!"
+#~ msgstr "Dieses Element scheint nicht zu existieren!"
+
+#~ msgid "Dieses Modul scheint nicht zu existieren."
+#~ msgstr "Diese Lektion scheint nicht zu existieren."
+
+#~ msgid "Du bist nicht berechtigt diese Seite anzuzeigen"
+#~ msgstr "Du bist nicht berechtigt diese Seite anzuzeigen"
+
+#~ msgid "Dieses Element verfügt über keine Inhalte"
+#~ msgstr "Dieses Element verfügt über keine Inhalte"
+
+#~ msgid "Du bist nicht berechtigt diese Seite anzuzeigen."
+#~ msgstr "Du bist nicht berechtigt diese Seite anzuzeigen."
+
+#~ msgid "Du wurdest erfolgreich abgemeldet."
+#~ msgstr "Du wurdest erfolgreich abgemeldet."
+
+#~ msgid "Um auf diesen Inhalt zugreifen zu können musst du angemeldet sein."
+#~ msgstr "Um auf diesen Inhalt zugreifen zu können musst du angemeldet sein."
+
+#~ msgid "Hier findest du eine Zusammenfassung deiner Lernfortschritte."
+#~ msgstr "Hier findest du eine Zusammenfassung deiner Lernfortschritte."
+
+#~ msgid "Entwurf"
+#~ msgstr "Entwurf"
+
+#~ msgid "Leider hast du noch keinen Zugriff auf diesen Inhalt."
+#~ msgstr "Leider hast du noch keinen Zugriff auf diesen Inhalt."
+
+#~ msgid "Meistere folgende Inhalte um diesen Inhalt freizuschalten."
+#~ msgstr "Meistere folgende Inhalte um diesen Inhalt freizuschalten."
+
+#~ msgid ""
+#~ "Du hast leider nicht die erforderliche Punktezahl um auf diesen Inhalt "
+#~ "zuzugreifen."
+#~ msgstr ""
+#~ "Du hast leider nicht die erforderliche Punktezahl um auf diesen Inhalt "
+#~ "zuzugreifen."
+
+#~ msgid ""
+#~ "Du hast leider nicht die erforderliche Stufe um auf diesen Inhalt "
+#~ "zuzugreifen."
+#~ msgstr ""
+#~ "Du hast leider nicht die erforderliche Stufe um auf diesen Inhalt "
+#~ "zuzugreifen."
+
+#~ msgid "Du musst angemeldet sein um auf Lerninhalte zugreifen zu können."
+#~ msgstr "Du musst angemeldet sein um auf Lerninhalte zugreifen zu können."
+
+#~ msgid "Gast"
+#~ msgstr "Gast"
+
+#~ msgid "Du hast diesen Inhalt bereits erfolgreich abgeschlossen."
+#~ msgstr "Du hast diesen Inhalt bereits erfolgreich abgeschlossen."
+
+#~ msgid "Dieses Modul scheint nicht zu existieren..."
+#~ msgstr "Diese Lektion scheint nicht zu existieren..."
+
+#~ msgid "Keine Kompetenzen vorhanden."
+#~ msgstr "Keine Kompetenzen vorhanden."
+
+#~ msgid ""
+#~ "Kompetenz konnte nicht erstellt werden. Eventuell existiert bereits eine "
+#~ "Kompetenz mit diesem Namen."
+#~ msgstr ""
+#~ "Kompetenz konnte nicht erstellt werden. Eventuell existiert bereits eine "
+#~ "Kompetenz mit diesem Namen."
+
+#~ msgid "Kompetenzgruppen"
+#~ msgstr "Kompetenzgruppen"
+
+#~ msgid "Erstellt von"
+#~ msgstr "Erstellt von"
+
+#~ msgid "Erstellungsdatum"
+#~ msgstr "Erstellungsdatum"
+
+#~ msgid "Geändert von"
+#~ msgstr "Geändert von"
+
+#~ msgid "Änderungsdatum"
+#~ msgstr "Änderungsdatum"
+
+#~ msgid "Werkzeuge"
+#~ msgstr "Werkzeuge"
+
+#~ msgid "Kompetenz bearbeiten"
+#~ msgstr "Kompetenz bearbeiten"
+
+#~ msgid "Kompetenz erstellen"
+#~ msgstr "Kompetenz erstellen"
+
+#~ msgid "Typ"
+#~ msgstr "Typ"
+
+#~ msgid "Speichern"
+#~ msgstr "Speichern"
+
+#~ msgid "Keinen Modulen zugeordnet."
+#~ msgstr "Keinen Lektionen zugeordnet."
+
+#~ msgid "Modul"
+#~ msgstr "Lektion"
+
+#~ msgid "Abdeckung"
+#~ msgstr "Abdeckung"
+
+#~ msgid "Bearbeiten"
+#~ msgstr "Bearbeiten"
+
+#~ msgid "Abbrechen"
+#~ msgstr "Abbrechen"
+
+#~ msgid "Keinen Kompetenzgruppen zugeordnet."
+#~ msgstr "Keinen Kompetenzgruppen zugeordnet."
+
+#~ msgid "Es sind noch keine Kompetenzgruppen vorhanden."
+#~ msgstr "Es sind noch keine Kompetenzgruppen vorhanden."
+
+#~ msgid "Keine Kompetengruppen vorhanden."
+#~ msgstr "Keine Kompetengruppen vorhanden."
+
+#~ msgid ""
+#~ "Kompetenzgruppe konnte nicht erstellt werden. Eventuell existiert bereits "
+#~ "eine Kompetenzgruppe mit diesem Namen."
+#~ msgstr ""
+#~ "Kompetenzgruppe konnte nicht erstellt werden. Eventuell existiert bereits "
+#~ "eine Kompetenzgruppe mit diesem Namen."
+
+#~ msgid "Kompetenzgruppe bearbeiten"
+#~ msgstr "Kompetenzgruppe bearbeiten"
+
+#~ msgid "Kompetenzgruppe erstellen"
+#~ msgstr "Kompetenzgruppe erstellen"
+
+#~ msgid "Keine Kompetenzen zugeordnet."
+#~ msgstr "Keine Kompetenzen zugeordnet."
+
+#~ msgid "Es sind noch keine Kompetenzen vorhanden."
+#~ msgstr "Es sind noch keine Kompetenzen vorhanden."
+
+#~ msgid "Cluevo Kompetenz"
+#~ msgstr "Cluevo Kompetenz"
+
+#~ msgid "Art mit der Module dargestellt werden"
+#~ msgstr "Art mit der Lektionen dargestellt werden"
+
+#~ msgid "Neue User sind automatisch LMS User"
+#~ msgstr "Neue User sind automatisch LMS User"
+
+#~ msgid "Titel"
+#~ msgstr "Titel"
+
+#~ msgid "Am Anfang der Seite"
+#~ msgstr "Am Anfang der Seite"
+
+#~ msgid "Am Ende der Seite"
+#~ msgstr "Am Ende der Seite"
+
+#~ msgid "Allgemeine Einstellungen"
+#~ msgstr "Allgemeine Einstellungen"
+
+#~ msgid "Post bearbeiten"
+#~ msgstr "Post bearbeiten"
+
+#~ msgid "Modul muss periodisch wiederholt werden"
+#~ msgstr "Lektion muss periodisch wiederholt werden"
+
+#~ msgid "Bestimmt in welchem Intervall ein Modul wiederholt werden muss."
+#~ msgstr "Bestimmt in welchem Intervall eine Lektion wiederholt werden muss."
+
+#~ msgid "Die Startseite des Lernsystems befindet sich hier: "
+#~ msgstr "Die Startseite des Lernsystems befindet sich hier: "
+
+#, php-format
+#~ msgid "Die Lernstruktur kann mit %s angezeigt werden."
+#~ msgstr "Die Lernstruktur kann mit %s angezeigt werden."
+
+#~ msgid ""
+#~ "Der Shortcode kann durch einen Klick auf die jeweilige Item ID oder das "
+#~ "[s] Icon in die Zwischenablage kopiert werden."
+#~ msgstr ""
+#~ "Der Shortcode kann durch einen Klick auf die jeweilige Item ID oder das "
+#~ "[s] Icon in die Zwischenablage kopiert werden."
+
+#~ msgid ""
+#~ "Es sind noch keine Kurse vorhanden. Klicke hier um unsere Demo Kurse und "
+#~ "Module zu installlieren: "
+#~ msgstr ""
+#~ "Es sind noch keine Kurse vorhanden. Klicke hier um unsere Demo Kurse und "
+#~ "Lektionen zu installlieren: "
+
+#~ msgid "Demo Kurs und Module hinzufügen"
+#~ msgstr "Demo Kurs und Lektionen hinzufügen"
+
+#~ msgid "Kurs hinzufügen"
+#~ msgstr "Kurs hinzufügen"
+
+#~ msgid "Abhängigkeiten zurücksetzen"
+#~ msgstr "Abhängigkeiten zurücksetzen"
+
+#~ msgid "Fortschritte"
+#~ msgstr "Fortschritte"
+
+#~ msgid "Einträge gefunden"
+#~ msgstr "Einträge gefunden"
+
+#~ msgid "Versuche"
+#~ msgstr "Versuche"
+
+#~ msgid "Punkte"
+#~ msgstr "Punkte"
+
+#~ msgid "Punkte %"
+#~ msgstr "Punkte %"
+
+#~ msgid "Abgeschlossen"
+#~ msgstr "Abgeschlossen"
+
+#~ msgid "Schlechtester User"
+#~ msgstr "Schlechtester User"
+
+#~ msgid "Keine Auswertungen vorhanden."
+#~ msgstr "Keine Auswertungen vorhanden."
+
+#~ msgid "Alle Benutzer"
+#~ msgstr "Alle Benutzer"
+
+#~ msgid "Alle Versuche"
+#~ msgstr "Alle Versuche"
+
+#~ msgid "Filter zurücksetzen"
+#~ msgstr "Filter zurücksetzen"
+
+#~ msgid "Versuch"
+#~ msgstr "Versuch"
+
+#~ msgid "Erfolgsstatus"
+#~ msgstr "Erfolgsstatus"
+
+#~ msgid "Gültig"
+#~ msgstr "Gültig"
+
+#~ msgid "SCORM Parameter ansehen"
+#~ msgstr "SCORM Parameter ansehen"
+
+#~ msgid "Keine Fortschritte vorhanden."
+#~ msgstr "Keine Fortschritte vorhanden."
+
+#~ msgid "Wert"
+#~ msgstr "Wert"
+
+#~ msgid "Erstellt"
+#~ msgstr "Erstellt"
+
+#~ msgid "Geändert"
+#~ msgstr "Geändert"
+
+#~ msgid "Keine User vorhanden."
+#~ msgstr "Keine User vorhanden."
+
+#~ msgid "Gruppen"
+#~ msgstr "Gruppen"
+
+#~ msgid "Benutzer wirklich löschen?"
+#~ msgstr "Benutzer wirklich löschen?"
+
+#~ msgid "Gruppe wirklich löschen?"
+#~ msgstr "Gruppe wirklich löschen?"
+
+#~ msgid "Benutzer hinzufügen"
+#~ msgstr "Benutzer hinzufügen"
+
+#~ msgid "Gruppe hinzufügen"
+#~ msgstr "Gruppe hinzufügen"
+
+#~ msgid "Benutzer suchen"
+#~ msgstr "Benutzer suchen"
+
+#~ msgid "Ausgewählte Benutzer"
+#~ msgstr "Ausgewählte Benutzer"
+
+#~ msgid "Benutzername"
+#~ msgstr "Benutzername"
+
+#~ msgid "Gruppe erstellen"
+#~ msgstr "Gruppe erstellen"
+
+#~ msgid "Gruppe speichern"
+#~ msgstr "Gruppe speichern"
+
+#~ msgid "Rolle"
+#~ msgstr "Rolle"
+
+#~ msgid "Zuletzt gesehen"
+#~ msgstr "Zuletzt gesehen"
+
+#~ msgid "Erstellungdsatum"
+#~ msgstr "Erstellungdsatum"
+
+#~ msgid "Rolle seit"
+#~ msgstr "Rolle seit"
+
+#~ msgid "Zum Trainer befördern"
+#~ msgstr "Zum Trainer befördern"
+
+#~ msgid "Zum User machen"
+#~ msgstr "Zum User machen"
+
+#~ msgid "Gruppe auswählen"
+#~ msgstr "Gruppe auswählen"
+
+#~ msgid "Beschreibung"
+#~ msgstr "Beschreibung"
+
+#~ msgid "Mitglieder"
+#~ msgstr "Mitglieder"
+
+#~ msgid "Gruppenname"
+#~ msgstr "Gruppenname"
+
+#~ msgid "Schüler"
+#~ msgstr "Schüler"
+
+#~ msgid "Gruppe"
+#~ msgstr "Gruppe"
+
+#~ msgid "Kein Zugriff"
+#~ msgstr "Kein Zugriff"
+
+#~ msgid "Sichtbar"
+#~ msgstr "Sichtbar"
+
+#~ msgid "Zugriff"
+#~ msgstr "Zugriff"
+
+#~ msgid "Oder"
+#~ msgstr "Oder"
+
+#~ msgid ""
+#~ "Achtung: Dieses Modul ist für diese Gruppe bzw. diesen Benutzer nicht "
+#~ "ausführbar. Es ist aber in der Übersicht sichtbar."
+#~ msgstr ""
+#~ "Achtung: Diese Lektion ist für diese Gruppe bzw. diesen Benutzer nicht "
+#~ "ausführbar. Es ist aber in der Übersicht sichtbar."
+
+#~ msgid ""
+#~ "Wähle eine Gruppe oder einen User aus für den die eine "
+#~ "Berechtigungsstruktur erstellen willst."
+#~ msgstr ""
+#~ "Wähle eine Gruppe oder einen User aus für den die eine "
+#~ "Berechtigungsstruktur erstellen willst."
+
+#~ msgid "Berechtigungen übernehmen"
+#~ msgstr "Berechtigungen übernehmen"
+
+#~ msgid ""
+#~ "Kein Zugriff. Das Element wird nicht angzeigt und kann nicht betreten "
+#~ "werden."
+#~ msgstr ""
+#~ "Kein Zugriff. Das Element wird nicht angzeigt und kann nicht betreten "
+#~ "werden."
+
+#~ msgid ""
+#~ "Sichtbar. Das Element ist zwar sichtbar, kann aber nicht betreten werden."
+#~ msgstr ""
+#~ "Sichtbar. Das Element ist zwar sichtbar, kann aber nicht betreten werden."
+
+#~ msgid ""
+#~ "Offen. Das Element ist sichtbar und kann betreten werden. Module können "
+#~ "ausgeführt werden."
+#~ msgstr ""
+#~ "Offen. Das Element ist sichtbar und kann betreten werden. Lektionen "
+#~ "können ausgeführt werden."
+
+#~ msgid "Kurs"
+#~ msgstr "Kurs"
+
+#~ msgid "Kapitel"
+#~ msgstr "Kapitel"
+
+#~ msgid "Berechtigungen"
+#~ msgstr "Berechtigungen"
+
+#~ msgid ""
+#~ "Bei dieser Gruppe handelt es sich um eine E-Mail Gruppe. Jeder Benutzer "
+#~ "der eine E-Mail Adresse von dieser Domain besitzt, ist automatisch "
+#~ "Mitglied dieser Gruppe."
+#~ msgstr ""
+#~ "Bei dieser Gruppe handelt es sich um eine E-Mail Gruppe. Jeder Benutzer "
+#~ "der eine E-Mail Adresse von dieser Domain besitzt, ist automatisch "
+#~ "Mitglied dieser Gruppe."
+
+#~ msgid "Userverwaltung"
+#~ msgstr "Userverwaltung"
+
+#~ msgid "Meeting erstellt."
+#~ msgstr "Meeting erstellt."
+
+#~ msgid "Webinar Name darf nicht leer sein."
+#~ msgstr "Webinar Name darf nicht leer sein."
+
+#~ msgid "Meeting wird beendet. Dieser Vorgang keine ein paar Momente dauern."
+#~ msgstr "Meeting wird beendet. Dieser Vorgang keine ein paar Momente dauern."
+
+#~ msgid "Beim Schließen des Meetings ist ein Fehler aufgetreten."
+#~ msgstr "Beim Schließen des Meetings ist ein Fehler aufgetreten."
+
+#~ msgid "Webinar Einstellungen"
+#~ msgstr "Webinar Einstellungen"
+
+#~ msgid "Startzeit"
+#~ msgstr "Startzeit"
+
+#~ msgid "Endzeit"
+#~ msgstr "Endzeit"
+
+#~ msgid "Dauer"
+#~ msgstr "Dauer"
+
+#~ msgid "Anwesende"
+#~ msgstr "Anwesende"
+
+#~ msgid "Als Moderator Beitreten"
+#~ msgstr "Als Moderator Beitreten"
+
+#~ msgid "Als Gast Beitreten"
+#~ msgstr "Als Gast Beitreten"
+
+#~ msgid "Beenden"
+#~ msgstr "Beenden"
+
+#~ msgid "Derzeit sind keine Meetings aktiv."
+#~ msgstr "Derzeit sind keine Meetings aktiv."
+
+#~ msgid "Beim Abfragen der Räume ist ein Problem aufgetreten."
+#~ msgstr "Beim Abfragen der Räume ist ein Problem aufgetreten."
+
+#~ msgid "Meeting erstellen"
+#~ msgstr "Meeting erstellen"
+
+#~ msgid "Kursgruppe"
+#~ msgstr "Kursgruppe"
+
+#~ msgid "Kursgruppe bestehend aus Kursen"
+#~ msgstr "Kursgruppe bestehend aus Kursen"
+
+#~ msgid "kursgruppe"
+#~ msgstr "kursgruppe"
+
+#~ msgid "Kurs bestehend aus Kapitel"
+#~ msgstr "Kurs bestehend aus Kapitel"
+
+#~ msgid "kurs"
+#~ msgstr "kurs"
+
+#~ msgid "Kapitel bestehend aus Modulen"
+#~ msgstr "Kapitel bestehend aus Lektionen"
+
+#~ msgid "kapitel"
+#~ msgstr "kapitel"
+
+#~ msgid "Ein Lernmodul in einem Kapitel"
+#~ msgstr "Eine Lektion in einem Kapitel"
+
+#~ msgid "Ein SCORM Modul"
+#~ msgstr "Ein SCORM Modul"
+
+#~ msgid "kompetenzen"
+#~ msgstr "kompetenzen"
+
+#~ msgid "kompetenz"
+#~ msgstr "kompetenz"
+
+#~ msgid "kompetenzgruppe"
+#~ msgstr "kompetenzgruppe"
+
+#~ msgid ""
+#~ " konnte nicht migriert werden. Das Modul existiert bereits im neuen Pfad."
+#~ msgstr ""
+#~ " konnte nicht migriert werden. Die Lektion existiert bereits im neuen "
+#~ "Pfad."
+
+#~ msgid "Meine Lernstruktur"
+#~ msgstr "Meine Lernstruktur"
+
+#, php-format
+#~ msgid "Fehler beim Migrieren des Moduls: %s"
+#~ msgstr "Fehler beim Migrieren des Moduls: %s"
+
+#, php-format
+#~ msgid "Ziel existiert bereits: %s"
+#~ msgstr "Ziel existiert bereits: %s"
+
+#, php-format
+#~ msgid "Quelldatei existiert nicht: %s"
+#~ msgstr "Quelldatei existiert nicht: %s"
+
+#, php-format
+#~ msgid "Fehler beim Migrieren der ZIP Datei des Moduls: %s"
+#~ msgstr "Fehler beim Migrieren der ZIP Datei des Moduls: %s"
+
+#, php-format
+#~ msgid "Fehler beim Update der Moduldatei in der Datenbank: %s"
+#~ msgstr "Fehler beim Update der Moduldatei in der Datenbank: %s"
+
+#~ msgid ""
+#~ "Das CLUEVO LMS bietet dir die Möglichkeit verschiedene Kompetenzen zu "
+#~ "definieren und diese in Kompetenzgruppen zusammenzufassen"
+#~ msgstr ""
+#~ "Das CLUEVO LMS bietet dir die Möglichkeit verschiedene Kompetenzen zu "
+#~ "definieren und diese in Kompetenzgruppen zusammenzufassen"
+
+#~ msgid ""
+#~ "Kompetenzen können den verschiedenen Modulen zugeordnet werden und können "
+#~ "durch Module zu beliebigen Graden abgedeckt werden."
+#~ msgstr ""
+#~ "Kompetenzen können den verschiedenen Lektionen zugeordnet werden und "
+#~ "können durch Lektionen zu beliebigen Graden abgedeckt werden."
+
+#~ msgid ""
+#~ "Beispiel: Das Modul 'Marketing Einführung' deckt die Kompetenz "
+#~ "'Marketing' zu 20% ab, weitere Module im LMS können mehr dieser Kompetenz "
+#~ "abdecken."
+#~ msgstr ""
+#~ "Beispiel: Die Lektion 'Marketing Einführung' deckt die Kompetenz "
+#~ "'Marketing' zu 20% ab, weitere Lektionen im LMS können mehr dieser "
+#~ "Kompetenz abdecken."
+
+#~ msgid "Kompetenzgruppen bestehen aus mehreren Kompetenzen."
+#~ msgstr "Kompetenzgruppen bestehen aus mehreren Kompetenzen."
+
+#~ msgid "Lernstruktur"
+#~ msgstr "Lernstruktur"
+
+#~ msgid ""
+#~ "Eine Lernstruktur besteht aus Kursen, Kapiteln und Modulen. Innerhalb "
+#~ "einer Ebene kannst du Elemente beliebig per Drag and Drop verschieben "
+#~ "(solange ein Element keine Abhängigkeiten hat)."
+#~ msgstr ""
+#~ "Eine Lernstruktur besteht aus Kursen, Kapiteln und Modulen. Innerhalb "
+#~ "einer Ebene kannst du Elemente beliebig per Drag and Drop verschieben "
+#~ "(solange ein Element keine Abhängigkeiten hat)."
+
+#~ msgid ""
+#~ "Über den WordPress Button der bei jedem Element angezeigt wird (nachdem "
+#~ "die Struktur gespeichert wurde) kannst du den jeweiligen Post eines "
+#~ "Elementes bearbeiten. Über diese Posts kannst du den Inhalt und das "
+#~ "Thumbnail bestimmen."
+#~ msgstr ""
+#~ "Über den WordPress Button der bei jedem Element angezeigt wird (nachdem "
+#~ "die Struktur gespeichert wurde) kannst du den jeweiligen Post eines "
+#~ "Elementes bearbeiten. Über diese Posts kannst du den Inhalt und das "
+#~ "Thumbnail bestimmen."
+
+#~ msgid "Element Einstellungen"
+#~ msgstr "Element Einstellungen"
+
+#~ msgid ""
+#~ "Hier können für jedes Element diverse Einstellungen vorgenommen werden."
+#~ msgstr ""
+#~ "Hier können für jedes Element diverse Einstellungen vorgenommen werden."
+
+#~ msgid "Vorraussetzungen"
+#~ msgstr "Vorraussetzungen"
+
+#~ msgid ""
+#~ "Hier können verschiedene Abhängigkeiten definiert werden. So kann "
+#~ "eingestellt werden, dass Benutzer diverse Vorraussetzungen erfüllen "
+#~ "müssen bevor sie auf weitere Inhalte zugreiffen können"
+#~ msgstr ""
+#~ "Hier können verschiedene Abhängigkeiten definiert werden. So kann "
+#~ "eingestellt werden, dass Benutzer diverse Vorraussetzungen erfüllen "
+#~ "müssen bevor sie auf weitere Inhalte zugreiffen können"
+
+#~ msgid ""
+#~ "Für den erstmaligen Abschluss eines Moduls erhält der Benutzer eine "
+#~ "bestimmte Anzahl an Punkten, für jeden weiteren Abschluss desselben "
+#~ "Moduls erhält er Übungspunkte. Es kann zusätzlich festgelegt werden, dass "
+#~ "der Benutzer erst eine Mindestpunktezahl erreicht haben muss um auf ein "
+#~ "Element zugreifen zu können."
+#~ msgstr ""
+#~ "Für den erstmaligen Abschluss einer Lektion erhält der Benutzer eine "
+#~ "bestimmte Anzahl an Punkten, für jeden weiteren Abschluss desselben "
+#~ "Moduls erhält er Übungspunkte. Es kann zusätzlich festgelegt werden, dass "
+#~ "der Benutzer erst eine Mindestpunktezahl erreicht haben muss um auf ein "
+#~ "Element zugreifen zu können."
+
+#~ msgid "Benötigte Stufe"
+#~ msgstr "Benötigte Stufe"
+
+#~ msgid ""
+#~ "Bestimmt welche Stufe der Benutzer erreicht haben muss um Zugriff auf ein "
+#~ "Element zu haben."
+#~ msgstr ""
+#~ "Bestimmt welche Stufe der Benutzer erreicht haben muss um Zugriff auf ein "
+#~ "Element zu haben."
+
+#~ msgid ""
+#~ "Hier kannst du neue Benutzer zu deinem LMS hinzufügen und bestehende "
+#~ "Benutzer bearbeiten."
+#~ msgstr ""
+#~ "Hier kannst du neue Benutzer zu deinem LMS hinzufügen und bestehende "
+#~ "Benutzer bearbeiten."
+
+#~ msgid ""
+#~ "Mit dem '+' Button kannst du einem User eine neue Gruppe zuteilen. Durck "
+#~ "einen Klick auf eine Gruppe kannst die Mitgliedschaft des Benutzers "
+#~ "bearbeiten."
+#~ msgstr ""
+#~ "Mit dem '+' Button kannst du einem User eine neue Gruppe zuteilen. Durck "
+#~ "einen Klick auf eine Gruppe kannst die Mitgliedschaft des Benutzers "
+#~ "bearbeiten."
+
+#~ msgid "Hier kannst du neue Benutzergruppen zu deinem LMS hinzufügen."
+#~ msgstr "Hier kannst du neue Benutzergruppen zu deinem LMS hinzufügen."
+
+#~ msgid ""
+#~ "Das CLUEVO LMS ermöglicht es dir eine detaillierte Berechtigungsstruktur "
+#~ "zu erstellen. Dadurch kannst du genau festlegen welche Benutzer bzw. "
+#~ "Gruppen auch welche Inhalte zugriff erhalten."
+#~ msgstr ""
+#~ "Das CLUEVO LMS ermöglicht es dir eine detaillierte Berechtigungsstruktur "
+#~ "zu erstellen. Dadurch kannst du genau festlegen welche Benutzer bzw. "
+#~ "Gruppen auch welche Inhalte zugriff erhalten."
+
+#~ msgid ""
+#~ "Jedes Element der Lernstruktur wird über einen Post dargestellt. Diese "
+#~ "Posts können wie alle WordPress Posts bearbeitet werden, der Inhalt des "
+#~ "Posts wird dann im Frontend ausgegeben."
+#~ msgstr ""
+#~ "Jedes Element der Lernstruktur wird über einen Post dargestellt. Diese "
+#~ "Posts können wie alle WordPress Posts bearbeitet werden, der Inhalt des "
+#~ "Posts wird dann im Frontend ausgegeben."
+
+#, php-format
+#~ msgid ""
+#~ "Das Beitragsbild wird in der Kachel des Elementes ausgegeben. Die ideale "
+#~ "Größe beträgt %s Pixel"
+#~ msgstr ""
+#~ "Das Beitragsbild wird in der Kachel des Elementes ausgegeben. Die ideale "
+#~ "Größe beträgt %s Pixel"
+
+#~ msgid ""
+#~ "Hier erhältst du für jedes Element der Lernstruktur zusammengefasst einen "
+#~ "kurzen Report."
+#~ msgstr ""
+#~ "Hier erhältst du für jedes Element der Lernstruktur zusammengefasst einen "
+#~ "kurzen Report."
+
+#~ msgid ""
+#~ "Hier bekommst du einen Einblick in die Fortschritte deiner Benutzer. Du "
+#~ "siehst wer welche Module abgeschlosseh hat, wie oft Module versucht "
+#~ "wurden, usw."
+#~ msgstr ""
+#~ "Hier bekommst du einen Einblick in die Fortschritte deiner Benutzer. Du "
+#~ "siehst wer welche Lektionen abgeschlosseh hat, wie oft Lektionen versucht "
+#~ "wurden, usw."
+
+#~ msgid ""
+#~ "Hier siehst du die einzelnen SCORM Parameter deiner User. Für jeden "
+#~ "Versuch eines Moduls wird ein neues Parameterset erstellt."
+#~ msgstr ""
+#~ "Hier siehst du die einzelnen SCORM Parameter deiner User. Für jeden "
+#~ "Versuch eines Moduls wird ein neues Parameterset erstellt."
+
+#~ msgid "Hier kannst du verschiedene Einstellungen vornehmen."
+#~ msgstr "Hier kannst du verschiedene Einstellungen vornehmen."
+
+#~ msgid ""
+#~ "Du kannst für verschiedene Levels Titel erstellen. Die für einen Level-Up "
+#~ "benötigten Erfahrungspunkte berechnen sich anhand der für den ersten "
+#~ "Level benötigten Erfahrungspunkte."
+#~ msgstr ""
+#~ "Du kannst für verschiedene Levels Titel erstellen. Die für einen Level-Up "
+#~ "benötigten Erfahrungspunkte berechnen sich anhand der für den ersten "
+#~ "Level benötigten Erfahrungspunkte."
+
+#~ msgid "Nächster Level"
+#~ msgstr "Nächster Level"
+
+#~ msgid "Ungültige Server URL"
+#~ msgstr "Ungültige Server URL"
+
+#~ msgid "Das bestehende Modul wurde überschrieben."
+#~ msgstr "Die bestehende Lektion wurde überschrieben."
+
+#~ msgid "Beim Aktivieren des Moduls ist ein Fehler aufgetreten."
+#~ msgstr "Beim Aktivieren der Lektion ist ein Fehler aufgetreten."
+
+#, php-format
+#~ msgid ""
+#~ "Die CLUEVO LMS Datenbank muss auf eine neue Version aktualisiert werden. "
+#~ "Klicke hier um den Upgrade Vorgang zu starten: %s!"
+#~ msgstr ""
+#~ "Die CLUEVO LMS Datenbank muss auf eine neue Version aktualisiert werden. "
+#~ "Klicke hier um den Upgrade Vorgang zu starten: %s!"
+
+#~ msgid "Die CLUEVO Datenbank wurde aktualisiert."
+#~ msgstr "Die CLUEVO Datenbank wurde aktualisiert."
+
+#~ msgid "Für diesen Inhaltstyp wurde leider kein Handler gefunden."
+#~ msgstr "Für diesen Inhaltstyp wurde leider kein Handler gefunden."
+
+#~ msgid "Fehler beim Verschieben der Datei in das Zielverzeichnis."
+#~ msgstr "Fehler beim Verschieben der Datei in das Zielverzeichnis."
+
+#~ msgid "Das Modul konnte nicht installiert werden."
+#~ msgstr "Die Lektion konnte nicht installiert werden."
+
+#~ msgid "Modul einfügen"
+#~ msgstr "Modul einfügen"
+
+#~ msgid "Shortcode kopieren"
+#~ msgstr "Shortcode kopieren"
+
+#~ msgid "Veröffentlicht"
+#~ msgstr "Veröffentlicht"
+
+#~ msgid "zu diesem Element hinzufügen"
+#~ msgstr "zu diesem Element hinzufügen"
+
+#~ msgid "Post zu diesem Element öffnen"
+#~ msgstr "Post zu diesem Element öffnen"
+
+#~ msgid "Ansichtsmodus"
+#~ msgstr "Ansichtsmodus"
+
+#~ msgid "Bestimmt auf welche Art das Module geöffnet werden soll."
+#~ msgstr "Bestimmt auf welche Art das Lektionen geöffnet werden soll."
+
+#~ msgid "Modus"
+#~ msgstr "Modus"
+
+#~ msgid ""
+#~ "Bestimmt welche Vorraussetzungen erfüllt sein müssen um Zugriff zu einem "
+#~ "Inhalt zu haben."
+#~ msgstr ""
+#~ "Bestimmt welche Vorraussetzungen erfüllt sein müssen um Zugriff zu einem "
+#~ "Inhalt zu haben."
+
+#~ msgid ""
+#~ "Bestimmt den Wert den ein Lerninhalt hat bzw. wieviel Punkte vorhanden "
+#~ "sein müssen um Zugriff zu einem Inhalt zu haben."
+#~ msgstr ""
+#~ "Bestimmt den Wert den ein Lerninhalt hat bzw. wieviel Punkte vorhanden "
+#~ "sein müssen um Zugriff zu einem Inhalt zu haben."
+
+#~ msgid "Übungspunkte"
+#~ msgstr "Übungspunkte"
+
+#~ msgid "Benötigt"
+#~ msgstr "Benötigt"
+
+#~ msgid ""
+#~ "Bestimmt welche Stufe ein User haben muss um Zugriff zu einem Inhalt zu "
+#~ "haben."
+#~ msgstr ""
+#~ "Bestimmt welche Stufe ein User haben muss um Zugriff zu einem Inhalt zu "
+#~ "haben."
+
+#~ msgid "Stufe"
+#~ msgstr "Stufe"
+
+#~ msgid ""
+#~ "Es befinden sich noch Module im veralteten Modul Verzeichnis. Bitte hier "
+#~ "klicken im die Migration zu starten:"
+#~ msgstr ""
+#~ "Es befinden sich noch Lektionen im veralteten Modul Verzeichnis. Bitte "
+#~ "hier klicken im die Migration zu starten:"
+
+#~ msgid "Module migrieren"
+#~ msgstr "Module migrieren"
+
+#~ msgid "Sprache geändert."
+#~ msgstr "Sprache geändert."
+
+#~ msgid ""
+#~ "Sprache konnte nicht geändert werden. Eventuell existiert dieses Modul "
+#~ "bereits in dieser Sprache."
+#~ msgstr ""
+#~ "Sprache konnte nicht geändert werden. Eventuell existiert diese Lektion "
+#~ "bereits in dieser Sprache."
+
+#~ msgid "Ungültiges Modul"
+#~ msgstr "Ungültige Lektion"
+
+#~ msgid "Modul hinzufügen"
+#~ msgstr "Modul hinzufügen"
+
+#~ msgid ""
+#~ "Hier hast du die Möglichkeit neue Lektionen zu deinem LMS hinzuzufügen."
+#~ msgstr ""
+#~ "Hier hast du die Möglichkeit neue Lektionen zu deinem LMS hinzuzufügen."
+
+#~ msgid "Folgende Lektionstypen stehen derzeit zur Verfügung"
+#~ msgstr "Folgende Lektionstypen stehen derzeit zur Verfügung"
+
+#~ msgid "Die Lektion wird hochgeladen. Einen Moment bitte."
+#~ msgstr "Die Lektion wird hochgeladen. Einen Moment bitte."
+
+#~ msgid "Weiter"
+#~ msgstr "Weiter"
+
+#~ msgid "Wähle einen Lektionstyp aus um nähere Informationen zu erhalten."
+#~ msgstr "Wähle einen Lektionstyp aus um nähere Informationen zu erhalten."
+
+#~ msgid "Modul installieren"
+#~ msgstr "Lektion installieren"
+
+#~ msgid "Maximale Dateigröße: "
+#~ msgstr "Maximale Dateigröße: "
+
+#~ msgid "Anderen Lektionstyp auswählen"
+#~ msgstr "Anderen Lektionstyp auswählen"
+
+#~ msgid "Lektion hinzufügen"
+#~ msgstr "Lektion hinzufügen"
+
+#~ msgid "Sprache auswählen"
+#~ msgstr "Sprache auswählen"
+
+#~ msgid "Sprache"
+#~ msgstr "Sprache"
+
+#~ msgid "Unbekannt"
+#~ msgstr "Unbekannt"
+
+#~ msgid "Name ändern"
+#~ msgstr "Name ändern"
+
+#~ msgid "Modul Seite zur Bearbeitung öffnen"
+#~ msgstr "Lektionsseite zur Bearbeitung öffnen"
+
+#~ msgid "Modul Seite erstellen"
+#~ msgstr "Lektionsseite erstellen"
+
+#~ msgid "Modul löschen"
+#~ msgstr "Lektion löschen"
+
+#~ msgid "Auswertungen ansehen"
+#~ msgstr "Auswertungen ansehen"
+
+#~ msgid "Modul herunterladen"
+#~ msgstr "Lektion herunterladen"
+
+#~ msgid ""
+#~ "Es sind noch Module vorhanden. Klicke hier um unsere Demo Kurse und "
+#~ "Module zu installlieren: "
+#~ msgstr ""
+#~ "Es sind noch Lektionen vorhanden. Klicke hier um unsere Demo Kurse und "
+#~ "Module zu installlieren: "
+
+#~ msgid "Neuer Kurs"
+#~ msgstr "Neuer Kurs"
+
+#~ msgid "Neues Kapitel"
+#~ msgstr "Neues Kapitel"
+
+#~ msgid "Neues Modul"
+#~ msgstr "Neue Lektion"
+
+#~ msgid "Dieses Element wirklich löschen?"
+#~ msgstr "Dieses Element wirklich löschen?"
+
+#~ msgid ""
+#~ "Demo Kurse und Module installieren? Die Demos werden von der CLUEVO "
+#~ "Homepage heruntergeladen und installiert."
+#~ msgstr ""
+#~ "Demo Kurse und Lektionen installieren? Die Demos werden von der CLUEVO "
+#~ "Homepage heruntergeladen und installiert."
+
+#~ msgid "Suche"
+#~ msgstr "Suche"
+
+#~ msgid "Suchbegriff eingeben"
+#~ msgstr "Suchbegriff eingeben"
+
+#~ msgid ""
+#~ "Dieses Modul wirklich löschen? Dieser Vorgang kann nicht rückgängig "
+#~ "gemacht werden."
+#~ msgstr ""
+#~ "Diese Lektion wirklich löschen? Dieser Vorgang kann nicht rückgängig "
+#~ "gemacht werden."
+
+#~ msgid "Modul von URL installieren"
+#~ msgstr "Lektion von URL installieren"
+
+#~ msgid "Modul als Datei hochladen"
+#~ msgstr "Lektion als Datei hochladen"
+
+#~ msgid ""
+#~ "Die Lektion konnte nicht umbenannt werden. Eventuell ist der Name schon "
+#~ "in Verwendung oder die Lektion existiert nicht mehr."
+#~ msgstr ""
+#~ "Die Lektion konnte nicht umbenannt werden. Eventuell ist der Name schon "
+#~ "in Verwendung oder die Lektion existiert nicht mehr."
+
+#~ msgid ""
+#~ "Das Modul wurde hochgeladen. Einen Moment bitte, wärend das Modul "
+#~ "installiert wird."
+#~ msgstr "Die Lektion wird hochgeladen, einen Moment bitte..."
+
+#~ msgid ""
+#~ "Lektion hochgeladen. Aktualisiere die Seite um die Werkzeuge zu aktivieren"
+#~ msgstr ""
+#~ "Lektion hochgeladen. Aktualisiere die Seite um die Werkzeuge zu aktivieren"
+
+#~ msgid "Mit diesen Einstellungen kann die Lightbox konfiguriert werden."
+#~ msgstr "Mit diesen Einstellungen kann die Lightbox konfiguriert werden."
+
+#~ msgid "Button ausblenden"
+#~ msgstr "Button ausblenden"
+
+#~ msgid "Standard"
+#~ msgstr "Standard"
+
+#~ msgid "Oben Links"
+#~ msgstr "Oben Links"
+
+#~ msgid "Oben Mitte"
+#~ msgstr "Oben Mitte"
+
+#~ msgid "Oben Rechts"
+#~ msgstr "Oben Rechts"
+
+#~ msgid "Unten Links"
+#~ msgstr "Unten Links"
+
+#~ msgid "Unten Mitte"
+#~ msgstr "Unten Mitte"
+
+#~ msgid "Unten Rechts"
+#~ msgstr "Unten Rechts"
+
+#~ msgid ""
+#~ "SCORM Modul hochladen, oder einen Link zu einer SCORM Datei eingeben."
+#~ msgstr ""
+#~ "SCORM Modul hochladen, oder einen Link zu einer SCORM Datei eingeben."
+
+#~ msgid "Datei auswählen"
+#~ msgstr "Datei auswählen"
+
+#~ msgid "SCORM Modul hochladen, oder einen Link zu einer SCORM Datei eingeben"
+#~ msgstr ""
+#~ "SCORM Modul hochladen, oder einen Link zu einer SCORM Datei eingeben"
+
+#~ msgid "Installiert eine Audio als Lektion."
+#~ msgstr "Installiert eine Audio als Lektion."
+
+#~ msgid "Audio Datei auswählen"
+#~ msgstr "Audio Datei auswählen"
+
+#~ msgid ""
+#~ "Video Datei hochladen, oder einen Link zu einer Video Datei im Internet "
+#~ "eingeben."
+#~ msgstr ""
+#~ "Video Datei hochladen, oder einen Link zu einer Video Datei im Internet "
+#~ "eingeben."
+
+#~ msgid "Video Datei auswählen"
+#~ msgstr "Video Datei auswählen"
+
+#~ msgid "CLUEVO Video Tutorial Manager installieren"
+#~ msgstr "CLUEVO Video Tutorial Manager installieren"
+
+#~ msgid "Die Abfrage des Updates hat ein ungültiges Ergebnis geliefert."
+#~ msgstr "Die Abfrage des Updates hat ein ungültiges Ergebnis geliefert."
+
+#~ msgid "Fehler beim Plugin Update."
+#~ msgstr "Fehler beim Plugin Update."
+
+#~ msgid "Der Updateserver hat mit einem Fehler geantwortet."
+#~ msgstr "Der Updateserver hat mit einem Fehler geantwortet."
+
+#~ msgid "Beim der Prüfung auf Updates ist ein Fehler aufgetreten."
+#~ msgstr "Beim der Prüfung auf Updates ist ein Fehler aufgetreten."
+
+#~ msgid "Neuer Eintrag"
+#~ msgstr "Neuer Eintrag"
+
+#~ msgid "Die Kompetenz {name} wirklich löschen?"
+#~ msgstr "Die Kompetenz {name} wirklich löschen?"
+
+#~ msgid "Löschen"
+#~ msgstr "Löschen"
+
+#~ msgid "Die Kompetenzgruppe {name} wirklich löschen?"
+#~ msgstr "Die Kompetenzgruppe {name} wirklich löschen?"
+
+#~ msgid "Lightbox-Schließen-Button Text"
+#~ msgstr "Lightbox-Schließen-Button Text"
+
+#~ msgid ""
+#~ "Mit dieser Einstellung kann der Inhalt des Schließen Buttons in der "
+#~ "Lightbox festgelegt werden."
+#~ msgstr ""
+#~ "Mit dieser Einstellung kann der Inhalt des Schließen Buttons in der "
+#~ "Lightbox festgelegt werden."
+
+#~ msgid "Lightbox-Schließen-Button Position"
+#~ msgstr "Lightbox-Schließen-Button Position"
+
+#~ msgid ""
+#~ "Mit dieser Einstellung kann die Position des Schließen Buttons der "
+#~ "Lightbox eingestellt werden."
+#~ msgstr ""
+#~ "Mit dieser Einstellung kann die Position des Schließen Buttons der "
+#~ "Lightbox eingestellt werden."
+
+#~ msgid "Das Modul "
+#~ msgstr "Die Lektion "
+
+#~ msgid "Link zu einem Modul"
+#~ msgstr "Link zu einem Modul"
+
+#~ msgid "Zurück zu"
+#~ msgstr "Zurück zu"
+
+#~ msgid "Zurück zu: "
+#~ msgstr "Zurück zu: "
+
+#~ msgid "Derzeit sind noch keine Module vorhanden."
+#~ msgstr "Derzeit sind noch keine Module vorhanden."
+
+#~ msgid "Gebiete"
+#~ msgstr "Gebiete"
+
+#~ msgid "Kompetenzgebiete"
+#~ msgstr "Kompetenzgebiete"
+
+#~| msgid "Keine Kompetenzen zugeordnet."
+#~ msgid "Keinen Kompetenzgebieten zugeordnet."
+#~ msgstr "Keinen Kompetenzgebieten zugeordnet."
+
+#~| msgid "Keine Kompetenzgebiete vorhanden."
+#~ msgid "Es sind noch keine Kompetenzgebiete vorhanden."
+#~ msgstr "Es sind noch keine Kompetenzgebiete vorhanden."
+
+#~ msgid "Keine Kompetenzgebiete vorhanden."
+#~ msgstr "Keine Kompetenzgebiete vorhanden."
+
+#~ msgid "Kompetenzbereich bearbeiten"
+#~ msgstr "Kompetenzbereich bearbeiten"
+
+#~ msgid "Kompetenzbereich erstellen"
+#~ msgstr "Kompetenzbereich erstellen"
+
+#~ msgid "Kompetenzbereiche"
+#~ msgstr "Kompetenzbereiche"
+
+#~ msgid "Metadaten bearbeiten"
+#~ msgstr "Metadaten bearbeiten"
+
+#~ msgid "CLUEVO Kompetenzgebiet Posts"
+#~ msgstr "CLUEVO Kompetenzgebiet Posts"
+
+#~ msgid "CLUEVO Kompetenzgebiet Post"
+#~ msgstr "CLUEVO Kompetenzgebiet Post"
+
+#~ msgid "cluevo/kompetenzgebiet"
+#~ msgstr "cluevo/kompetenzgebiet"
+
+#~ msgid "Kompetenzgebiet"
+#~ msgstr "Kompetenzgebiet"
+
+#~ msgid "kompetenzgebiet"
+#~ msgstr "kompetenzgebiet"
+
+#~ msgid "Neues Kompetenzgebiet"
+#~ msgstr "Neues Kompetenzgebiet"
+
+#~ msgid "Das Kompetenzgebiet {name} wirklich löschen?"
+#~ msgstr "Das Kompetenzgebiet {name} wirklich löschen?"
+
+#~ msgid "Bereiche"
+#~ msgstr "Bereiche"
+
+#~ msgid "Keinen Gebieten zugeordnet."
+#~ msgstr "Keinen Gebieten zugeordnet."
+
+#~ msgid "Bei dieser Datei handelt es sich um keine ZIP Datei."
+#~ msgstr "Bei dieser Datei handelt es sich um keine ZIP Datei."
+
+#~ msgid "Link zu einer Modul Datei (*.zip, *.mp3, *.mp4, *.wav, *.webm)"
+#~ msgstr "Link zu einer Modul Datei (*.zip, *.mp3, *.mp4, *.wav, *.webm)"
+
+#~ msgid "Modul hochladen"
+#~ msgstr "Modul hochladen"
+
+#~ msgid "Modulmanagement"
+#~ msgstr "Modulmanagement"
+
+#, fuzzy
+#~| msgid "Dieses Modul scheint nicht zu existieren..."
+#~ msgid "Dieses Modul schein nicht zu existieren."
+#~ msgstr "Dieses Modul scheint nicht zu existieren..."
+
+#~ msgid " angezeigt werden."
+#~ msgstr " angezeigt werden."
+
+#~ msgid "Gruppe bearbeiten"
+#~ msgstr "Gruppe bearbeiten"
+
+#~ msgid "Kursgruppe erstellen"
+#~ msgstr "Kursgruppe erstellen"
+
+#~ msgid ""
+#~ "Der Kursindex kann auf jeder Seite mit folgendem Shortcode angezeigt "
+#~ "werden:"
+#~ msgstr ""
+#~ "Der Kursindex kann auf jeder Seite mit folgendem Shortcode angezeigt "
+#~ "werden:"
+
+#~ msgid "oder diese Kursgruppe spezifisch mit"
+#~ msgstr "oder diese Kursgruppe spezifisch mit"
+
+#~ msgid "Never"
+#~ msgstr "Never"
+
+#~ msgid "Kompetenz Metadata"
+#~ msgstr "Kompetenz Metadata"
+
+#~ msgid "Kompetenzgebiet Metadata"
+#~ msgstr "Kompetenzgebiet Metadata"
+
+#~ msgid "SCORM Modul Metadata"
+#~ msgstr "SCORM Modul Metadata"
+
+#~ msgid "Seiten"
+#~ msgstr "Seiten"
+
+#~ msgid "Anmeldung erforderlich"
+#~ msgstr "Anmeldung erforderlich"
+
+#~ msgid "über"
+#~ msgstr "über"
+
+#~ msgid "CLUEVO UserVerwaltung"
+#~ msgstr "CLUEVO UserVerwaltung"
+
+#~ msgid "Details"
+#~ msgstr "Details"
+
+#~ msgid "Automatische Erstellung von Gastkonten"
+#~ msgstr "Automatische Erstellung von Gastkonten"
+
+#~ msgid "Diagonaler Hintergrund bei Tiles"
+#~ msgstr "Diagonaler Hintergrund bei Tiles"
+
+#~ msgid "untitled"
+#~ msgstr "untitled"

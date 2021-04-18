@@ -1,0 +1,137 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Posts From Category\n"
+"POT-Creation-Date: 2014-09-11 21:23+0100\n"
+"PO-Revision-Date: 2014-09-11 21:34+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: post-from-category.php:31
+msgid "Display posts from selected category"
+msgstr "Zeige Beiträge aus der gewählten Kategorie"
+
+#: post-from-category.php:34
+msgid "Posts From Category"
+msgstr "Beiträge aus der Kategorie"
+
+#: post-from-category.php:93 post-from-category.php:105
+#: post-from-category.php:123
+msgid "Go to"
+msgstr "Gehe zu"
+
+#: post-from-category.php:123
+msgid "Read More"
+msgstr "Weiterlesen"
+
+#: post-from-category.php:190
+msgid "Title"
+msgstr "Überschrift"
+
+#: post-from-category.php:196
+msgid "Select Category"
+msgstr "Kategorie auswählen"
+
+#: post-from-category.php:198 post-from-category.php:215
+#: post-from-category.php:240
+msgid "Select"
+msgstr "Auswählen"
+
+#: post-from-category.php:212
+msgid "Order By"
+msgstr "Sortieren nach"
+
+#: post-from-category.php:218
+msgid "Author"
+msgstr "Autor"
+
+#: post-from-category.php:219
+msgid "Post Title"
+msgstr "Beitragsüberschrift"
+
+#: post-from-category.php:220
+msgid "Post ID"
+msgstr "Beitrags ID"
+
+#: post-from-category.php:221
+msgid "Date"
+msgstr "Datum"
+
+#: post-from-category.php:222
+msgid "Menu Order"
+msgstr "Menü Reiehnfolge"
+
+#: post-from-category.php:223
+msgid "Number of Comments"
+msgstr "Anzahl der Kommentare"
+
+#: post-from-category.php:224
+msgid "Random"
+msgstr "Zufall"
+
+#: post-from-category.php:237
+msgid "Order"
+msgstr "Reihenfolge"
+
+#: post-from-category.php:243
+msgid "Ascending"
+msgstr "aufsteigend"
+
+#: post-from-category.php:244
+msgid "Descending"
+msgstr "absteigend"
+
+#: post-from-category.php:257
+msgid "Number of Post"
+msgstr "Anzahl der Beiträge"
+
+#: post-from-category.php:264
+msgid "Exclude Posts"
+msgstr "Beiträge ausschließen"
+
+#: post-from-category.php:266
+msgid "Enter post id separated with comma to exclude multiple posts"
+msgstr "Beitrags ID mit Komma trennen um mehrere auszuschließen"
+
+#: post-from-category.php:272
+msgid "Words of Excerpt"
+msgstr "Wörter im Textausschnitt"
+
+#: post-from-category.php:279
+msgid "Display/Select Thumbnail"
+msgstr "Vorschaubild zeigen"
+
+#: post-from-category.php:283
+msgid "Thumbnail"
+msgstr "Vorschaubild"
+
+#: post-from-category.php:284
+msgid "Medium"
+msgstr "Mittel"
+
+#: post-from-category.php:285
+msgid "Large"
+msgstr "Groß"
+
+#: post-from-category.php:286
+msgid "Full"
+msgstr "Voll"
+
+#: post-from-category.php:300
+msgid "Display Post Date"
+msgstr "Beitragsdatum anzeigen"
+
+#: post-from-category.php:305
+msgid "Display Read More"
+msgstr "Weiterlesen anzeigen"
