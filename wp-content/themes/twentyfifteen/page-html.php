@@ -30,8 +30,9 @@ get_header(); ?>
 
 			// Include the page content template.
 			//get_template_part( 'content', 'page' );
-			get_template_part('content', get_post_format());
-			//the_title();
+		        //the_template_part('content', get_post_format());
+		        the_title();
+                        the_content();
 
 
 		// End the loop.
