@@ -29,10 +29,10 @@ get_header(); ?>
 		while ( $htmlPosts->have_posts() ) : $htmlPosts->the_post();
 
 			// Include the page content template.
-			//get_template_part( 'content', 'page' );
+			get_template_part( 'content', 'page' );
 		        //the_template_part('content', get_post_format());
-		        the_title();
-                        the_content();
+		        //the_title();
+                        //the_content();
 
 
 		// End the loop.
