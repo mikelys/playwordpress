@@ -19,6 +19,7 @@ class list_Pagination_Nav extends WP_Widget {
     
     function widget( $args, $instance ) {
         extract($args, EXTR_SKIP);
+        //global $wp;
         
         echo $before_widget;
         $title = empty($instance['title']) ? ' ' : apply_filters( 'widget_title', $instance['title'] );
@@ -36,9 +37,16 @@ class list_Pagination_Nav extends WP_Widget {
               'posts_per_page' => -1,
               'paged' => $ourCurrentPage 
             ));
+             $i = 0;
+            // $homeurl = "\html\page\";
+
             while ($htmlPosts->have_posts()) : $htmlPosts->the_post();
+               $i++;
+              
            ?>
-            <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+            <li><a href="<?php 
+                       echo get_home_url(); 
+                  ?>"><?php the_title(); ?></a></li>
             <?php
                   endwhile;
                   wp_reset_postdata(); 
@@ -46,7 +54,6 @@ class list_Pagination_Nav extends WP_Widget {
           </ul>
         <?php
          echo $after_widget;   
-         
     }
 }
 
@@ -55,5 +62,3 @@ add_action( 'widgets_init', 'list_pagination_nav' );
 function list_pagination_nav() {
   register_widget( 'list_Pagination_Nav' );
 }
-
-
