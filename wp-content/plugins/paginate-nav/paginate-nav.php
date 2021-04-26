@@ -41,11 +41,20 @@ class list_Pagination_Nav extends WP_Widget {
             // $homeurl = "\html\page\";
 
             while ($htmlPosts->have_posts()) : $htmlPosts->the_post();
-               $i++;
+              ++$i;
               
            ?>
             <li><a href="<?php 
-                       echo get_home_url(); 
+                    // var_dump($i);
+                  //   if ( $i == 1 ) {
+                  //        get_home_url();
+                   //   }
+                    //  else{
+                          get_blog_url(  $i );
+                   // echo $i;
+                      //   the_permalink( get_the_ID() );
+                   //    echo get_the_ID();
+                    // }  
                   ?>"><?php the_title(); ?></a></li>
             <?php
                   endwhile;
@@ -56,9 +65,28 @@ class list_Pagination_Nav extends WP_Widget {
          echo $after_widget;   
     }
 }
-
 add_action( 'widgets_init', 'list_pagination_nav' );
 
 function list_pagination_nav() {
   register_widget( 'list_Pagination_Nav' );
+}
+
+function get_blog_url(  $page_num ) {
+//    $components = preg_split( '/\//', $orig_url );
+//    //var_dump($page_num);
+ //   $count = count( $components );
+ //   $str_num = (string)$page_num;
+ //   if ( $count > 1 ) {
+//       unset( $components[$count-1] ); 
+ //   }
+  //   $ret=implode('/\//', $components);
+  // $pattern="2";
+//   $orig_url =  preg_replace("/\d+\/$/", $page_num , $orig_url);
+   global $wp;
+  // echo  home_url( $wp->request );
+   $link = home_url( $wp->request );
+   $link = preg_replace("/\d+$/", $page_num, $link );
+   echo $link;
+   // echo home_url();
+    // echo "localhost/wordpress/html/mike";
 }
