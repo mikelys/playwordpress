@@ -83,9 +83,14 @@ function get_blog_url(  $page_num ) {
   // $pattern="2";
 //   $orig_url =  preg_replace("/\d+\/$/", $page_num , $orig_url);
    global $wp;
-  // echo  home_url( $wp->request );
    $link = home_url( $wp->request );
-   $link = preg_replace("/\d+$/", $page_num, $link );
+
+  // echo  home_url( $wp->request );
+   if ( preg_match("/\d+$/", $link) ) {
+      $link = preg_replace("/\d+$/", $page_num, $link );
+   }else{
+      $link = $link."/page/$page_num";
+   }
    echo $link;
    // echo home_url();
     // echo "localhost/wordpress/html/mike";
