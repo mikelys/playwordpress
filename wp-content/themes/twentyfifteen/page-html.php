@@ -14,8 +14,7 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-        <?php
+			<?php
           $ourCurrentPage = get_query_var('paged');
           $htmlPosts = new WP_Query(array(
             'category_name' => 'html',
@@ -24,10 +23,22 @@ get_header(); ?>
           ));
 
         ?>
-		<?php
+
+<div class="paginate-class-1">
+			<p class="paginate-prev-1">
+			  <?php
+	            previous_posts_link('Previous');
+	          ?>
+	        </p>
+	        <p class="paginate-next-1">
+	          <?php  
+	            next_posts_link('Next', $htmlPosts->max_num_pages); 
+	          ?>
+	        </p>  
+        </div><main id="main" class="site-main" role="main">
+                <?php
 		// Start the loop.
 		while ( $htmlPosts->have_posts() ) : $htmlPosts->the_post();
-
 			// Include the page content template.
 			get_template_part( 'content', 'page' );
 		        //the_template_part('content', get_post_format());

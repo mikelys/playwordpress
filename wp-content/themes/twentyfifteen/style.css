@@ -4173,7 +4173,8 @@ p > video {
 	}
 
 	.site-main {
-		padding: 8.3333% 0;
+	/*	padding: 8.3333% 0;*/
+                padding: 0;
 	}
 
 	.site-content {
