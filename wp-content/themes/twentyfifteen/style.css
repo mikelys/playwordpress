@@ -2121,7 +2121,10 @@ a.post-thumbnail:focus {
 	margin: 0 10%;
 	background-color: #DDD;
 }
-
+.paginate-class-top {
+	margin: 10% 10%;
+	background-color: #DDD;
+}
 .paginate-class p {
 	color: white;
 	background-color: #1f7df0;
@@ -2137,6 +2140,20 @@ a.post-thumbnail:focus {
 .paginate-next {
 	float: right;
 	margin: 20 0 0;
+}
+
+.paginate-prev-1 {
+        display: inline-block; 
+        margin: 20 0 0; 
+        padding: 20 10 10 20;
+}
+
+
+.paginate-next-1 {
+      display: inline-block; 
+      margin: 20 0 0 80;
+      position: absolute;
+      right: 10%;
 }
 
 /**
