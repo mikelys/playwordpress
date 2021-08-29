@@ -2122,7 +2122,7 @@ a.post-thumbnail:focus {
 	background-color: #DDD;
 }
 .paginate-class-top {
-	margin: 10% 10%;
+	margin: 0;
 	background-color: #DDD;
 }
 .paginate-class p {
@@ -4155,13 +4155,13 @@ p > video {
 
 @media screen and (min-width: 59.6875em) {
 	body:before {
-		background-color: #fff;
+		background-color: #eb34c9;/*change was #fff*/
 		box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
 		content: "";
 		display: block;
 		height: 100%;
 		min-height: 100%;
-		position: fixed;
+		position: fixed;/*change was fixed*/
 		top: 0;
 		left: 0;
 		width: 29.4118%;
@@ -4179,6 +4179,7 @@ p > video {
 		max-width: 413px;
 		position: relative;
 		width: 29.4118%;
+		left: 30px;/* was 30px */
 	}
 
 	.secondary {
@@ -4190,11 +4191,12 @@ p > video {
 	}
 
 	.site-main {
-	/*	padding: 8.3333% 0;*/
-                padding: 0;
+		/*padding: 8.3333% 0;*/
+        padding: 0;
 	}
 
 	.site-content {
+		background-color: red;
 		display: block;
 		float: left;
 		margin-left: 29.4118%;
@@ -4552,7 +4554,8 @@ p > video {
 	.hentry,
 	.page-header,
 	.page-content {
-		margin: 0 8.3333%;
+		/*margin: 0 8.3333%;*/
+		margin: 0;
 	}
 
 	.hentry {
