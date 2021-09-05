@@ -2119,39 +2119,38 @@ a.post-thumbnail:focus {
 
 .paginate-class {
 	margin: 0 10%;
-	background-color: #DDD;
+	background-color: #FFF;
 }
 .paginate-class-top {
-	margin: 0;
+	margin-top: 50px;
 	background-color: #DDD;
 }
 .paginate-class p {
 	color: white;
-	background-color: #1f7df0;
 	width: 100px;
 }
 
 .paginate-prev {
 	float: left;
-	margin: 20 0 0;
-	padding: 20 10 10 20;
+	margin: 20px 0px 0px;
 }
 
 .paginate-next {
 	float: right;
-	margin: 20 0 0;
+	margin: 20px 0px 0px;
 }
 
 .paginate-prev-1 {
         display: inline-block; 
-        margin: 20 0 0; 
-        padding: 20 10 10 20;
+        margin: 10px 10px 0px; 
+        padding: 0px 10px 10px 20px;
 }
 
 
 .paginate-next-1 {
       display: inline-block; 
-      margin: 20 0 0 80;
+      margin: 10px 10px 0px; 
+      padding: 0px 10px 10px 20px;
       position: absolute;
       right: 10%;
 }
@@ -4155,7 +4154,7 @@ p > video {
 
 @media screen and (min-width: 59.6875em) {
 	body:before {
-		background-color: #eb34c9;/*change was #fff*/
+		background-color: #fff;
 		box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
 		content: "";
 		display: block;
@@ -4196,7 +4195,6 @@ p > video {
 	}
 
 	.site-content {
-		background-color: red;
 		display: block;
 		float: left;
 		margin-left: 29.4118%;
