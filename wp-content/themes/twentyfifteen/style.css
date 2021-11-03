@@ -2840,6 +2840,7 @@ p > video {
 
 	.site-main {
 		padding: 7.6923% 0;
+		border: 1px solid red;
 	}
 
 	.hentry.sticky:not(.has-post-thumbnail) {
@@ -4179,6 +4180,7 @@ p > video {
 		position: relative;
 		width: 29.4118%;
 		left: 30px;/* was 30px */
+				border: 2px solid yellow;
 	}
 
 	.secondary {
@@ -4192,6 +4194,7 @@ p > video {
 	.site-main {
 		/*padding: 8.3333% 0;*/
         padding: 0;
+		border: 1px solid red;
 	}
 
 	.site-content {
@@ -6057,6 +6060,7 @@ p > video {
 
 	.sidebar {
 		position: relative !important; /* Make sure sticky sidebar doesn't affect to print */
+						border: 2px solid yellow;
 	}
 
 	.site-branding {
