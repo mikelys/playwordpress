@@ -4181,6 +4181,7 @@ p > video {
 		width: 29.4118%;
 		left: 30px;/* was 30px */
 				border: 2px solid yellow;
+		overflow-y: scroll;		
 	}
 
 	.secondary {
