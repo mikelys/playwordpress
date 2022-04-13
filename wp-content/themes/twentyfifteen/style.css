@@ -2840,7 +2840,7 @@ p > video {
 
 	.site-main {
 		padding: 7.6923% 0;
-		border: 1px solid red;
+		/*border: 1px solid red;*/
 	}
 
 	.hentry.sticky:not(.has-post-thumbnail) {
